@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfKeyboardMacro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <KeyboardMacro>
+    <Id>2</Id>
+    <Name>HOME</Name>
+    <RecordMouse>false</RecordMouse>
+    <RecordKeyboard>true</RecordKeyboard>
+    <DelayOption>delay-three</DelayOption>
+    <CustomDelay>50</CustomDelay>
+    <PlaybackOption>play-one</PlaybackOption>
+    <InputsJson>[{"shiftKey":false,"altKey":false,"ctrlKey":false,"metaKey":false,"keycode":60999,"rawcode":36,"type":"keydown","delay":18},{"shiftKey":false,"altKey":false,"ctrlKey":false,"metaKey":false,"keycode":60999,"rawcode":36,"type":"keyup","delay":0}]</InputsJson>
+    <AssignedToKeyCode>false</AssignedToKeyCode>
+    <modified_at>2023-09-03T21:45:39.1346556</modified_at>
+    <IsActive>true</IsActive>
+    <MacroOrder>0</MacroOrder>
+  </KeyboardMacro>
+</ArrayOfKeyboardMacro>
