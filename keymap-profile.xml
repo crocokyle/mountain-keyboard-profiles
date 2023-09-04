@@ -10,7 +10,7 @@
     <PlaybackOption>play-one</PlaybackOption>
     <InputsJson>[{"shiftKey":false,"altKey":false,"ctrlKey":false,"metaKey":false,"keycode":60999,"rawcode":36,"type":"keydown","delay":18},{"shiftKey":false,"altKey":false,"ctrlKey":false,"metaKey":false,"keycode":60999,"rawcode":36,"type":"keyup","delay":0}]</InputsJson>
     <AssignedToKeyCode>false</AssignedToKeyCode>
-    <modified_at>2023-09-03T21:45:39.1346556</modified_at>
+    <modified_at>2023-09-03T22:02:14.2757887</modified_at>
     <IsActive>true</IsActive>
     <MacroOrder>0</MacroOrder>
   </KeyboardMacro>
