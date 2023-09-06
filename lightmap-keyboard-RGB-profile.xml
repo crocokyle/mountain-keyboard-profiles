@@ -1,0 +1,3705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProfileId>3</ProfileId>
+  <Id>1</Id>
+  <DeviceType>EverestMini</DeviceType>
+  <ProfileName>LIGHTMAP</ProfileName>
+  <OrderNo>0</OrderNo>
+  <ImagePath>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAMAAABrrFhUAAAAzFBMVEVDSE1DSE1DSE3///80OT5ESU4uMzk8QUc6P0U+Q0hARUpCR0wrMTcmLDIpLzQwNTs3PEE4PkPS0tQyNz1WWl8jKi9PVFitr7F5fH9obG9KT1R/goX8/Pz5+fjW19i8vr+cn6Hz9PTw8PHp6urOz9C3ubuXmpyPkZSGiIxdYWVHTFDl5ubi4+PKy83Gx8iztbaTlphYXWHe3t/BwsSlqKqho6ZxdHhkaGtTWFz19vbZ2tqoqqyIjI6ChYhucnVgZGhscHTs7O2LjpEZHyWWohRQAAAAAnRSTlPy5hlwCUoAAAaASURBVHja7NABAQAwDMOgvf5FX0hAAvcu7d3iLj5wAgQsTYAAAUsTIEDA0gQIELA0AQIELE2AAAFLEyBAwNIECBCwNAECBCxNgAABSxMgQMDSBAgQsDQBAgQsTYAAAUsTIOCza6dLiQNRGIarzulO0kk6i0xkUxZXEEVEBNxKZO7/nmaK0pohHVR+5KNrnOcOeM+Pj1TyPwB9axYFkMrN8SWVzJ4AMvCiivL+5rry+wRQsaZau7W3plUXVDIrAsgg0eLlccCGmUMlsyGACqPG0xUX6O4nVLKdBwiEThfVLhcak0cl23EAL3LmZw+8ya3jU8l2GcCPI7/WPuTNHrN/eAXSSPQ7A/7QWUhl200AqRyn0RvyZ54BI7CLACJKF9Vj/txLhcoGDyC9MJ6ft/gr7vcFlQ0bQAaVUNVOu/w1lzKlsiEDyDSMbzpj/rJhRVHZYAGkciLZHB7wFqqAFUQFuBBiNhnwdjoRAWACJPUT3lovJABMgOiMt1ePCQATwGny1g4RK4gKENf5Ewe7WUFUAPGDP9QedTnvJHUJABRgfs8bHU/6PwsCXeuAAEAr0DjmDYZNqZ3smQ0dLQkAE8ALxlzkqDqLdRoE0R0bnkICAAVw3T02XfUamaMkkS/abFjEBAAK4Du3Bcev6CSQ9JtKT8xZgKwgKoDMqrzmpNfQq+OvKHXJeYOLlABAAUhP1o5fF6vjv0tuDjlvz3MJABNg7b/w3vLt+H84UzacRj4BoAKEy7fjXy+ETkjSGt1kQwfyMAwK8P4w0Drfj0LX/GF6xIZlRAC4AFO+P50mWpAkgx9fs2EaEwAsgPfj7CZcHd9UvIJzQQCwANJ33o9vUq65gq+YFdz5y9GVdL/LeS3lEYAdAeI6G9qOTwB2BIiabLjLCMGOANmIDecRIVgRwA+rbKg5hGBFAJUM2dAXhGBFANd94Lwj0ApaEcBrHHHeA2gFrQhQmbHhtqIIwYoAYY0Nk4wgbAggsyUbzjVB2BAg0BM2NEOCsCGAEkM2zCoEYUMA121xXhe1gjYE8OQr5419jyBsCCD6bBgmiiBsCFC0go86IAgbAugnNowywrAhQNZhw3NIGBYE8OM2G+qoFbQgQNGL424jJQwLAnh0bK6gcgnDggDJ/LDg86BvFOAXe/e62jYQBQEYDruyLMmSXMcKTXNrEjvOxRjTGHJr0r7/SxX6Mzu/ZwR75hE+DIM5s3YHDqO7ojJORgDQbpQtqAeIyzVowdZI0QNULTiMfhRGih5gUt6AkWxvpOgByhrMg3gtqAfohxcwD8oIAB1GVx2tBfUADRjJrnktKAeI6DD6e2asyAHq2TGYB/FaUA4w7bfpPGjPa0E5AJqRX9e8EpAD9Cc/QQtOjRU5wOITzIMCrwXlAA0ayc5qY0UOgEayG2ILygGWT2Ae1BgtaoBp9yttwc9gtKgByuo1bcFIbEE1QA/mQefMFlQDhD2YB4WMAApwGD00xBZUA7S3KcA7swXFAHF5ELegGKBqV3AexIsYoJycg6cipfEiBcCPys/nlfEiBgjPp2kL9hkBoBejx11GAM07HMkSowWIy0t5C0oB6tkOzoOI0QJMynQedDVQW1ALML9/SABeuS2oBQjDGRjJZgTQfde3oBSg2cAHk8xoAVrUghkBxOUx/A09ZqQA08U2Hcke9caMFGB+/whGslNjRgoQwDxoG7glIATAh9HdIiMA9Dub66Y2ZqQAzXoELSgEiGge9KcwapQAdZMeRs/uglGjA8CH0ceK3IJKgH64SltwURs1SoDuDoxkcwJAh9HLIiOABsyDfrBbUAgQ2zf4VIQb6SfgYgwtqAOYTNPD6EOcGDdCgH74O4YW1AEs9qdjaEEdQPEB5kFdTgC38F9FyBECNE+jaEEZQGxXo2hBGUDV36QteFIaOTqAOZgH3YTayNEBBNCCF11GAAU4jL5lBbABI1l+CQgBDuNoQRVAbFbgqcjC2JEB1F16GL0e5saODKAEh9Fv88rYkQGE/UvagoXRIwPALWj0iADwYfQ2q0/AWFpQBdDtwHdBQQvKAKrh6GuerTZ6ZACxDEmqaPz8B8g6DuAADmBZxwEcwAEs6ziAAziAZR0HcAAHsKzjAA7gAJZ1HMABHMCyjgM4gANY1nEAB3AAyzoO4AAOYFnHARzAASzr/GuHDggAgGEYhH31L/pCCA4IAAAAlg4AAABLBwAAgKUDAADA0tX/t3cv3X3fklBxnxnJyQAAAABJRU5ErkJggg==</ImagePath>
+  <ImageFileName>C:\Program Files (x86)\Mountain Base Camp\resources\bin\wwwroot\images\profileImages\1.png</ImageFileName>
+  <IsSelected>1</IsSelected>
+  <modified_at>0001-01-01T00:00:00</modified_at>
+  <IsDefaultProfileImage>true</IsDefaultProfileImage>
+  <IsCloseExeTracking>false</IsCloseExeTracking>
+  <MakaluLightings />
+  <MakaluKeyBindings />
+  <MakaluSettings />
+  <EverestLightings />
+  <EverestKeyBindings />
+  <EverestKeyboardSettings />
+  <Everest60Lightings>
+    <Everest60Lighting>
+      <ProfileId>3</ProfileId>
+      <EffIndex>Static</EffIndex>
+      <EffectName>Static</EffectName>
+      <Type>0</Type>
+      <Speed>50</Speed>
+      <Brightness>50</Brightness>
+      <Direction>0</Direction>
+      <Color1>#0044FF</Color1>
+      <Color2>#0044ff</Color2>
+      <Color3>#f0cc20</Color3>
+      <isAcrossProfile>false</isAcrossProfile>
+      <isAcrossDevice>false</isAcrossDevice>
+      <IsActive>false</IsActive>
+      <modified_at>2022-09-08T18:08:00.8955093</modified_at>
+    </Everest60Lighting>
+    <Everest60Lighting>
+      <ProfileId>3</ProfileId>
+      <EffIndex>ColorWave</EffIndex>
+      <EffectName>Color Wave</EffectName>
+      <Type>2</Type>
+      <Speed>50</Speed>
+      <Brightness>50</Brightness>
+      <Direction>3</Direction>
+      <Color1>#0044ff</Color1>
+      <Color2>#0044ff</Color2>
+      <Color3>#f0cc20</Color3>
+      <isAcrossProfile>false</isAcrossProfile>
+      <isAcrossDevice>false</isAcrossDevice>
+      <IsActive>false</IsActive>
+      <modified_at>2022-09-08T18:08:00.8955364</modified_at>
+    </Everest60Lighting>
+    <Everest60Lighting>
+      <ProfileId>3</ProfileId>
+      <EffIndex>Tornado</EffIndex>
+      <EffectName>Tornado</EffectName>
+      <Type>2</Type>
+      <Speed>50</Speed>
+      <Brightness>50</Brightness>
+      <Direction>0</Direction>
+      <Color1>#0044ff</Color1>
+      <Color2>#0044ff</Color2>
+      <Color3>#f0cc20</Color3>
+      <isAcrossProfile>false</isAcrossProfile>
+      <isAcrossDevice>false</isAcrossDevice>
+      <IsActive>false</IsActive>
+      <modified_at>2022-09-08T18:08:00.8955374</modified_at>
+    </Everest60Lighting>
+    <Everest60Lighting>
+      <ProfileId>3</ProfileId>
+      <EffIndex>Breathing</EffIndex>
+      <EffectName>Breathing</EffectName>
+      <Type>2</Type>
+      <Speed>50</Speed>
+      <Brightness>50</Brightness>
+      <Direction>3</Direction>
+      <Color1>#0044ff</Color1>
+      <Color2>#0044ff</Color2>
+      <Color3>#f0cc20</Color3>
+      <isAcrossProfile>false</isAcrossProfile>
+      <isAcrossDevice>false</isAcrossDevice>
+      <IsActive>false</IsActive>
+      <modified_at>2022-09-08T18:08:00.8955403</modified_at>
+    </Everest60Lighting>
+    <Everest60Lighting>
+      <ProfileId>3</ProfileId>
+      <EffIndex>Reactive</EffIndex>
+      <EffectName>Reactive</EffectName>
+      <Type>1</Type>
+      <Speed>50</Speed>
+      <Brightness>50</Brightness>
+      <Direction>3</Direction>
+      <Color1>#0044ff</Color1>
+      <Color2>#FFFFFF</Color2>
+      <Color3>#001140</Color3>
+      <isAcrossProfile>false</isAcrossProfile>
+      <isAcrossDevice>false</isAcrossDevice>
+      <IsActive>false</IsActive>
+      <modified_at>2022-09-08T18:08:00.8955406</modified_at>
+    </Everest60Lighting>
+    <Everest60Lighting>
+      <ProfileId>3</ProfileId>
+      <EffIndex>Matrix</EffIndex>
+      <EffectName>Matrix</EffectName>
+      <Type>1</Type>
+      <Speed>50</Speed>
+      <Brightness>0</Brightness>
+      <Direction>3</Direction>
+      <Color1>#0044ff</Color1>
+      <Color2>#FFFFFF</Color2>
+      <Color3>#001140</Color3>
+      <isAcrossProfile>false</isAcrossProfile>
+      <isAcrossDevice>false</isAcrossDevice>
+      <IsActive>false</IsActive>
+      <modified_at>2022-09-08T18:08:00.8955411</modified_at>
+    </Everest60Lighting>
+    <Everest60Lighting>
+      <ProfileId>3</ProfileId>
+      <EffIndex>Custom</EffIndex>
+      <EffectName>Custom</EffectName>
+      <Type>0</Type>
+      <Speed>0</Speed>
+      <Brightness>100</Brightness>
+      <Direction>0</Direction>
+      <Color1>rgb(235, 64, 52)</Color1>
+      <Color2>undefined</Color2>
+      <Color3>undefined</Color3>
+      <isAcrossProfile>false</isAcrossProfile>
+      <isAcrossDevice>false</isAcrossDevice>
+      <IsActive>true</IsActive>
+      <modified_at>2022-09-08T18:17:51.4258074</modified_at>
+      <CustomLightings>[{"Ids":1,"KeyCode":0,"ColorHex":"rgb(255, 0, 0)"},{"Ids":2,"KeyCode":1,"ColorHex":"#ffffff"},{"Ids":3,"KeyCode":2,"ColorHex":"#ffffff"},{"Ids":4,"KeyCode":3,"ColorHex":"#ffffff"},{"Ids":5,"KeyCode":4,"ColorHex":"#ffffff"},{"Ids":6,"KeyCode":5,"ColorHex":"#ffffff"},{"Ids":7,"KeyCode":6,"ColorHex":"#ffffff"},{"Ids":8,"KeyCode":7,"ColorHex":"#ffffff"},{"Ids":9,"KeyCode":8,"ColorHex":"#ffffff"},{"Ids":10,"KeyCode":9,"ColorHex":"#ffffff"},{"Ids":11,"KeyCode":10,"ColorHex":"#ffffff"},{"Ids":12,"KeyCode":11,"ColorHex":"#ffffff"},{"Ids":13,"KeyCode":12,"ColorHex":"#ffffff"},{"Ids":14,"KeyCode":13,"ColorHex":"#ffffff"},{"Ids":15,"KeyCode":14,"ColorHex":"#ffffff"},{"Ids":16,"KeyCode":15,"ColorHex":"#ffffff"},{"Ids":17,"KeyCode":16,"ColorHex":"#ffffff"},{"Ids":18,"KeyCode":17,"ColorHex":"#ffffff"},{"Ids":19,"KeyCode":18,"ColorHex":"#ffffff"},{"Ids":20,"KeyCode":19,"ColorHex":"#ffffff"},{"Ids":21,"KeyCode":20,"ColorHex":"#ffffff"},{"Ids":22,"KeyCode":21,"ColorHex":"#ffffff"},{"Ids":23,"KeyCode":22,"ColorHex":"rgb(0, 118, 204)"},{"Ids":24,"KeyCode":23,"ColorHex":"rgb(0, 118, 204)"},{"Ids":25,"KeyCode":24,"ColorHex":"rgb(0, 118, 204)"},{"Ids":26,"KeyCode":25,"ColorHex":"rgb(0, 118, 204)"},{"Ids":27,"KeyCode":26,"ColorHex":"rgb(0, 118, 204)"},{"Ids":28,"KeyCode":27,"ColorHex":"rgb(0, 118, 204)"},{"Ids":29,"KeyCode":28,"ColorHex":"rgb(0, 118, 204)"},{"Ids":30,"KeyCode":29,"ColorHex":"rgb(0, 118, 204)"},{"Ids":31,"KeyCode":30,"ColorHex":"rgb(0, 118, 204)"},{"Ids":32,"KeyCode":31,"ColorHex":"rgb(0, 118, 204)"},{"Ids":33,"KeyCode":32,"ColorHex":"rgb(235, 64, 52)"},{"Ids":34,"KeyCode":33,"ColorHex":"rgb(235, 64, 52)"},{"Ids":35,"KeyCode":34,"ColorHex":"rgb(91, 222, 98)"},{"Ids":36,"KeyCode":35,"ColorHex":"#ffffff"},{"Ids":37,"KeyCode":36,"ColorHex":"#ffffff"},{"Ids":38,"KeyCode":37,"ColorHex":"#ffffff"},{"Ids":39,"KeyCode":38,"ColorHex":"#ffffff"},{"Ids":40,"KeyCode":39,"ColorHex":"#ffffff"},{"Ids":41,"KeyCode":40,"ColorHex":"#ffffff"},{"Ids":42,"KeyCode":41,"ColorHex":"#ffffff"},{"Ids":43,"KeyCode":42,"ColorHex":"rgb(0, 255, 99)"},{"Ids":44,"KeyCode":43,"ColorHex":"rgb(173, 255, 230)"},{"Ids":45,"KeyCode":44,"ColorHex":"rgb(255, 0, 0)"},{"Ids":46,"KeyCode":45,"ColorHex":"rgb(173, 255, 230)"},{"Ids":47,"KeyCode":46,"ColorHex":"rgb(255, 0, 0)"},{"Ids":48,"KeyCode":47,"ColorHex":"rgb(173, 255, 230)"},{"Ids":49,"KeyCode":48,"ColorHex":"rgb(173, 255, 230)"},{"Ids":50,"KeyCode":49,"ColorHex":"rgb(173, 255, 230)"},{"Ids":51,"KeyCode":50,"ColorHex":"rgb(173, 255, 230)"},{"Ids":52,"KeyCode":51,"ColorHex":"rgb(173, 255, 230)"},{"Ids":53,"KeyCode":52,"ColorHex":"rgb(173, 255, 230)"},{"Ids":54,"KeyCode":53,"ColorHex":"rgb(235, 64, 52)"},{"Ids":55,"KeyCode":54,"ColorHex":"rgb(235, 64, 52)"},{"Ids":56,"KeyCode":55,"ColorHex":"rgb(235, 64, 52)"},{"Ids":57,"KeyCode":56,"ColorHex":"rgb(91, 222, 98)"},{"Ids":58,"KeyCode":57,"ColorHex":"#ffffff"},{"Ids":59,"KeyCode":58,"ColorHex":"#ffffff"},{"Ids":60,"KeyCode":59,"ColorHex":"#ffffff"},{"Ids":61,"KeyCode":60,"ColorHex":"#ffffff"},{"Ids":62,"KeyCode":61,"ColorHex":"#ffffff"},{"Ids":63,"KeyCode":62,"ColorHex":"#ffffff"},{"Ids":64,"KeyCode":63,"ColorHex":"rgb(235, 64, 52)"},{"Ids":65,"KeyCode":64,"ColorHex":"rgb(255, 0, 0)"},{"Ids":66,"KeyCode":65,"ColorHex":"rgb(255, 0, 0)"},{"Ids":67,"KeyCode":66,"ColorHex":"rgb(255, 0, 0)"},{"Ids":68,"KeyCode":67,"ColorHex":"rgb(173, 255, 230)"},{"Ids":69,"KeyCode":68,"ColorHex":"rgb(173, 255, 230)"},{"Ids":70,"KeyCode":69,"ColorHex":"rgb(173, 255, 230)"},{"Ids":71,"KeyCode":70,"ColorHex":"rgb(173, 255, 230)"},{"Ids":72,"KeyCode":71,"ColorHex":"rgb(173, 255, 230)"},{"Ids":73,"KeyCode":72,"ColorHex":"rgb(173, 255, 230)"},{"Ids":74,"KeyCode":73,"ColorHex":"rgb(235, 64, 52)"},{"Ids":75,"KeyCode":74,"ColorHex":"rgb(235, 64, 52)"},{"Ids":76,"KeyCode":75,"ColorHex":"#ffffff"},{"Ids":77,"KeyCode":76,"ColorHex":"rgb(91, 222, 98)"},{"Ids":78,"KeyCode":77,"ColorHex":"#ffffff"},{"Ids":79,"KeyCode":78,"ColorHex":"#ffffff"},{"Ids":80,"KeyCode":79,"ColorHex":"#ffffff"},{"Ids":81,"KeyCode":80,"ColorHex":"#ffffff"},{"Ids":82,"KeyCode":81,"ColorHex":"#ffffff"},{"Ids":83,"KeyCode":82,"ColorHex":"#ffffff"},{"Ids":84,"KeyCode":83,"ColorHex":"#ffffff"},{"Ids":85,"KeyCode":84,"ColorHex":"rgb(0, 255, 99)"},{"Ids":86,"KeyCode":85,"ColorHex":"rgb(173, 255, 230)"},{"Ids":87,"KeyCode":86,"ColorHex":"rgb(173, 255, 230)"},{"Ids":88,"KeyCode":87,"ColorHex":"rgb(173, 255, 230)"},{"Ids":89,"KeyCode":88,"ColorHex":"rgb(173, 255, 230)"},{"Ids":90,"KeyCode":89,"ColorHex":"rgb(173, 255, 230)"},{"Ids":91,"KeyCode":90,"ColorHex":"rgb(173, 255, 230)"},{"Ids":92,"KeyCode":91,"ColorHex":"rgb(173, 255, 230)"},{"Ids":93,"KeyCode":92,"ColorHex":"rgb(235, 64, 52)"},{"Ids":94,"KeyCode":93,"ColorHex":"rgb(235, 64, 52)"},{"Ids":95,"KeyCode":94,"ColorHex":"rgb(235, 64, 52)"},{"Ids":96,"KeyCode":95,"ColorHex":"#ffffff"},{"Ids":97,"KeyCode":96,"ColorHex":"#ffffff"},{"Ids":98,"KeyCode":97,"ColorHex":"rgb(91, 222, 98)"},{"Ids":99,"KeyCode":98,"ColorHex":"#ffffff"},{"Ids":100,"KeyCode":99,"ColorHex":"rgb(255, 0, 0)"},{"Ids":101,"KeyCode":100,"ColorHex":"#ffffff"},{"Ids":102,"KeyCode":101,"ColorHex":"#ffffff"},{"Ids":103,"KeyCode":102,"ColorHex":"#ffffff"},{"Ids":104,"KeyCode":103,"ColorHex":"#ffffff"},{"Ids":105,"KeyCode":104,"ColorHex":"#ffffff"},{"Ids":106,"KeyCode":105,"ColorHex":"rgb(255, 61, 0)"},{"Ids":107,"KeyCode":106,"ColorHex":"rgb(0, 204, 181)"},{"Ids":108,"KeyCode":107,"ColorHex":"rgb(0, 204, 181)"},{"Ids":109,"KeyCode":108,"ColorHex":"#ffffff"},{"Ids":110,"KeyCode":109,"ColorHex":"#ffffff"},{"Ids":111,"KeyCode":110,"ColorHex":"rgb(173, 255, 230)"},{"Ids":112,"KeyCode":111,"ColorHex":"#ffffff"},{"Ids":113,"KeyCode":112,"ColorHex":"#ffffff"},{"Ids":114,"KeyCode":113,"ColorHex":"rgb(0, 204, 181)"},{"Ids":115,"KeyCode":114,"ColorHex":"#ffffff"},{"Ids":116,"KeyCode":115,"ColorHex":"rgb(248, 255, 0)"},{"Ids":117,"KeyCode":116,"ColorHex":"#ffffff"},{"Ids":118,"KeyCode":117,"ColorHex":"#ffffff"},{"Ids":119,"KeyCode":118,"ColorHex":"#ffffff"},{"Ids":120,"KeyCode":119,"ColorHex":"rgb(255, 0, 0)"},{"Ids":121,"KeyCode":120,"ColorHex":"rgb(255, 0, 0)"},{"Ids":122,"KeyCode":121,"ColorHex":"rgb(255, 0, 0)"},{"Ids":123,"KeyCode":122,"ColorHex":"#ffffff"},{"Ids":124,"KeyCode":123,"ColorHex":"#ffffff"},{"Ids":125,"KeyCode":124,"ColorHex":"#ffffff"},{"Ids":126,"KeyCode":125,"ColorHex":"#ffffff"},{"Ids":127,"KeyCode":126,"ColorHex":"rgb(173, 255, 230)"},{"Ids":128,"KeyCode":127,"ColorHex":"rgb(173, 255, 230)"},{"Ids":129,"KeyCode":128,"ColorHex":"rgb(173, 255, 230)"},{"Ids":130,"KeyCode":129,"ColorHex":"rgb(173, 255, 230)"},{"Ids":131,"KeyCode":130,"ColorHex":"rgb(173, 255, 230)"},{"Ids":132,"KeyCode":131,"ColorHex":"rgb(173, 255, 230)"},{"Ids":133,"KeyCode":132,"ColorHex":"rgb(173, 255, 230)"},{"Ids":134,"KeyCode":133,"ColorHex":"rgb(173, 255, 230)"},{"Ids":135,"KeyCode":134,"ColorHex":"rgb(173, 255, 230)"},{"Ids":136,"KeyCode":135,"ColorHex":"rgb(173, 255, 230)"},{"Ids":137,"KeyCode":136,"ColorHex":"rgb(173, 255, 230)"},{"Ids":138,"KeyCode":137,"ColorHex":"rgb(173, 255, 230)"},{"Ids":139,"KeyCode":138,"ColorHex":"rgb(173, 255, 230)"},{"Ids":140,"KeyCode":139,"ColorHex":"rgb(173, 255, 230)"},{"Ids":141,"KeyCode":140,"ColorHex":"rgb(173, 255, 230)"},{"Ids":142,"KeyCode":141,"ColorHex":"rgb(173, 255, 230)"},{"Ids":143,"KeyCode":142,"ColorHex":"rgb(173, 255, 230)"},{"Ids":144,"KeyCode":143,"ColorHex":"rgb(173, 255, 230)"},{"Ids":145,"KeyCode":144,"ColorHex":"rgb(173, 255, 230)"},{"Ids":146,"KeyCode":145,"ColorHex":"rgb(173, 255, 230)"},{"Ids":147,"KeyCode":146,"ColorHex":"rgb(173, 255, 230)"},{"Ids":148,"KeyCode":147,"ColorHex":"rgb(173, 255, 230)"},{"Ids":149,"KeyCode":148,"ColorHex":"rgb(173, 255, 230)"},{"Ids":150,"KeyCode":149,"ColorHex":"rgb(173, 255, 230)"},{"Ids":151,"KeyCode":150,"ColorHex":"rgb(173, 255, 230)"},{"Ids":152,"KeyCode":151,"ColorHex":"rgb(173, 255, 230)"},{"Ids":153,"KeyCode":152,"ColorHex":"rgb(173, 255, 230)"},{"Ids":154,"KeyCode":153,"ColorHex":"rgb(173, 255, 230)"},{"Ids":155,"KeyCode":154,"ColorHex":"rgb(173, 255, 230)"},{"Ids":156,"KeyCode":155,"ColorHex":"rgb(173, 255, 230)"},{"Ids":157,"KeyCode":156,"ColorHex":"rgb(173, 255, 230)"},{"Ids":158,"KeyCode":157,"ColorHex":"rgb(173, 255, 230)"},{"Ids":159,"KeyCode":158,"ColorHex":"rgb(173, 255, 230)"},{"Ids":160,"KeyCode":159,"ColorHex":"rgb(173, 255, 230)"},{"Ids":161,"KeyCode":160,"ColorHex":"rgb(173, 255, 230)"},{"Ids":162,"KeyCode":161,"ColorHex":"rgb(173, 255, 230)"},{"Ids":163,"KeyCode":162,"ColorHex":"rgb(173, 255, 230)"},{"Ids":164,"KeyCode":163,"ColorHex":"rgb(173, 255, 230)"},{"Ids":165,"KeyCode":164,"ColorHex":"rgb(173, 255, 230)"},{"Ids":166,"KeyCode":165,"ColorHex":"rgb(173, 255, 230)"},{"Ids":167,"KeyCode":166,"ColorHex":"rgb(173, 255, 230)"},{"Ids":168,"KeyCode":167,"ColorHex":"rgb(173, 255, 230)"},{"Ids":169,"KeyCode":168,"ColorHex":"rgb(173, 255, 230)"},{"Ids":170,"KeyCode":169,"ColorHex":"rgb(173, 255, 230)"},{"Ids":171,"KeyCode":170,"ColorHex":"#ffffff"},{"Ids":172,"KeyCode":171,"ColorHex":"#ffffff"},{"Ids":173,"KeyCode":172,"ColorHex":"#ffffff"},{"Ids":174,"KeyCode":173,"ColorHex":"#ffffff"},{"Ids":175,"KeyCode":174,"ColorHex":"#ffffff"},{"Ids":176,"KeyCode":175,"ColorHex":"#ffffff"},{"Ids":177,"KeyCode":176,"ColorHex":"#ffffff"},{"Ids":178,"KeyCode":177,"ColorHex":"#ffffff"},{"Ids":179,"KeyCode":178,"ColorHex":"#ffffff"},{"Ids":180,"KeyCode":179,"ColorHex":"#ffffff"},{"Ids":181,"KeyCode":180,"ColorHex":"#ffffff"},{"Ids":182,"KeyCode":181,"ColorHex":"#ffffff"},{"Ids":183,"KeyCode":182,"ColorHex":"#ffffff"},{"Ids":184,"KeyCode":183,"ColorHex":"#ffffff"},{"Ids":185,"KeyCode":184,"ColorHex":"#ffffff"},{"Ids":186,"KeyCode":185,"ColorHex":"#ffffff"},{"Ids":187,"KeyCode":186,"ColorHex":"#ffffff"},{"Ids":188,"KeyCode":187,"ColorHex":"#ffffff"},{"Ids":189,"KeyCode":188,"ColorHex":"#ffffff"},{"Ids":190,"KeyCode":189,"ColorHex":"#ffffff"},{"Ids":191,"KeyCode":190,"ColorHex":"#ffffff"},{"Ids":192,"KeyCode":191,"ColorHex":"#ffffff"}]</CustomLightings>
+      <CustomLightingsSaved>#5bde62,#98eb34,#98eb35,#b3357f,#eb4034,#dc29bc,#00ccb5,#0076cc,#4700cc,#cc0043</CustomLightingsSaved>
+    </Everest60Lighting>
+    <Everest60Lighting>
+      <ProfileId>3</ProfileId>
+      <EffIndex>Yeti</EffIndex>
+      <EffectName>YETI MODE</EffectName>
+      <Type>1</Type>
+      <Speed>50</Speed>
+      <Brightness>50</Brightness>
+      <Direction>0</Direction>
+      <Color1>#0044ff</Color1>
+      <Color2>#FFFFFF</Color2>
+      <Color3>#001140</Color3>
+      <isAcrossProfile>false</isAcrossProfile>
+      <isAcrossDevice>false</isAcrossDevice>
+      <IsActive>false</IsActive>
+      <modified_at>2022-09-08T18:08:00.8973661</modified_at>
+    </Everest60Lighting>
+    <Everest60Lighting>
+      <ProfileId>3</ProfileId>
+      <EffIndex>Off</EffIndex>
+      <EffectName>Off</EffectName>
+      <Type>0</Type>
+      <Speed>60</Speed>
+      <Brightness>50</Brightness>
+      <Direction>3</Direction>
+      <Color1>#000000</Color1>
+      <Color2>#0044ff</Color2>
+      <Color3>#f0cc20</Color3>
+      <isAcrossProfile>false</isAcrossProfile>
+      <isAcrossDevice>false</isAcrossDevice>
+      <IsActive>false</IsActive>
+      <modified_at>2022-09-08T18:08:00.8973779</modified_at>
+    </Everest60Lighting>
+  </Everest60Lightings>
+  <Everest60KeyBindings>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>112</KeyId>
+      <KeyName>F1</KeyName>
+      <KeyNameFull>F1</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569084</modified_at>
+      <DLLKeyId>112</DLLKeyId>
+      <DLLKeyName>F1</DLLKeyName>
+      <DLLMatrixIndex>58</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>113</KeyId>
+      <KeyName>F2</KeyName>
+      <KeyNameFull>F2</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.856929</modified_at>
+      <DLLKeyId>113</DLLKeyId>
+      <DLLKeyName>F2</DLLKeyName>
+      <DLLMatrixIndex>59</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>114</KeyId>
+      <KeyName>F3</KeyName>
+      <KeyNameFull>F3</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569303</modified_at>
+      <DLLKeyId>114</DLLKeyId>
+      <DLLKeyName>F3</DLLKeyName>
+      <DLLMatrixIndex>60</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>115</KeyId>
+      <KeyName>F4</KeyName>
+      <KeyNameFull>F4</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569306</modified_at>
+      <DLLKeyId>115</DLLKeyId>
+      <DLLKeyName>F4</DLLKeyName>
+      <DLLMatrixIndex>61</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>116</KeyId>
+      <KeyName>F5</KeyName>
+      <KeyNameFull>F5</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569309</modified_at>
+      <DLLKeyId>116</DLLKeyId>
+      <DLLKeyName>F5</DLLKeyName>
+      <DLLMatrixIndex>62</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>117</KeyId>
+      <KeyName>F6</KeyName>
+      <KeyNameFull>F6</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569313</modified_at>
+      <DLLKeyId>117</DLLKeyId>
+      <DLLKeyName>F6</DLLKeyName>
+      <DLLMatrixIndex>63</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>118</KeyId>
+      <KeyName>F7</KeyName>
+      <KeyNameFull>F7</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569316</modified_at>
+      <DLLKeyId>118</DLLKeyId>
+      <DLLKeyName>F7</DLLKeyName>
+      <DLLMatrixIndex>64</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>119</KeyId>
+      <KeyName>F8</KeyName>
+      <KeyNameFull>F8</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569319</modified_at>
+      <DLLKeyId>119</DLLKeyId>
+      <DLLKeyName>F8</DLLKeyName>
+      <DLLMatrixIndex>65</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>120</KeyId>
+      <KeyName>F9</KeyName>
+      <KeyNameFull>F9</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569322</modified_at>
+      <DLLKeyId>120</DLLKeyId>
+      <DLLKeyName>F9</DLLKeyName>
+      <DLLMatrixIndex>66</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>121</KeyId>
+      <KeyName>F10</KeyName>
+      <KeyNameFull>F10</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569379</modified_at>
+      <DLLKeyId>121</DLLKeyId>
+      <DLLKeyName>F10</DLLKeyName>
+      <DLLMatrixIndex>67</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>122</KeyId>
+      <KeyName>F11</KeyName>
+      <KeyNameFull>F11</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569383</modified_at>
+      <DLLKeyId>122</DLLKeyId>
+      <DLLKeyName>F11</DLLKeyName>
+      <DLLMatrixIndex>68</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>123</KeyId>
+      <KeyName>F12</KeyName>
+      <KeyNameFull>F12</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569386</modified_at>
+      <DLLKeyId>123</DLLKeyId>
+      <DLLKeyName>F12</DLLKeyName>
+      <DLLMatrixIndex>69</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>230</KeyId>
+      <KeyName>F13</KeyName>
+      <KeyNameFull>F13</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569389</modified_at>
+      <DLLKeyId>230</DLLKeyId>
+      <DLLKeyName>F13</DLLKeyName>
+      <DLLMatrixIndex>9</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>231</KeyId>
+      <KeyName>F14</KeyName>
+      <KeyNameFull>F14</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569391</modified_at>
+      <DLLKeyId>231</DLLKeyId>
+      <DLLKeyName>F14</DLLKeyName>
+      <DLLMatrixIndex>18</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>232</KeyId>
+      <KeyName>F15</KeyName>
+      <KeyNameFull>F15</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569394</modified_at>
+      <DLLKeyId>232</DLLKeyId>
+      <DLLKeyName>F15</DLLKeyName>
+      <DLLMatrixIndex>27</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>233</KeyId>
+      <KeyName>F16</KeyName>
+      <KeyNameFull>F16</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569397</modified_at>
+      <DLLKeyId>233</DLLKeyId>
+      <DLLKeyName>F16</DLLKeyName>
+      <DLLMatrixIndex>36</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>234</KeyId>
+      <KeyName>F17</KeyName>
+      <KeyNameFull>F17</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.85694</modified_at>
+      <DLLKeyId>234</DLLKeyId>
+      <DLLKeyName>F17</DLLKeyName>
+      <DLLMatrixIndex>45</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>235</KeyId>
+      <KeyName>F18</KeyName>
+      <KeyNameFull>F18</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569404</modified_at>
+      <DLLKeyId>235</DLLKeyId>
+      <DLLKeyName>F18</DLLKeyName>
+      <DLLMatrixIndex>54</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>236</KeyId>
+      <KeyName>F19</KeyName>
+      <KeyNameFull>F19</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569407</modified_at>
+      <DLLKeyId>236</DLLKeyId>
+      <DLLKeyName>F19</DLLKeyName>
+      <DLLMatrixIndex>63</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>237</KeyId>
+      <KeyName>F20</KeyName>
+      <KeyNameFull>F20</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.856941</modified_at>
+      <DLLKeyId>237</DLLKeyId>
+      <DLLKeyName>F20</DLLKeyName>
+      <DLLMatrixIndex>72</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>238</KeyId>
+      <KeyName>F21</KeyName>
+      <KeyNameFull>F21</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569412</modified_at>
+      <DLLKeyId>238</DLLKeyId>
+      <DLLKeyName>F21</DLLKeyName>
+      <DLLMatrixIndex>81</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>239</KeyId>
+      <KeyName>F22</KeyName>
+      <KeyNameFull>F22</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569416</modified_at>
+      <DLLKeyId>239</DLLKeyId>
+      <DLLKeyName>F22</DLLKeyName>
+      <DLLMatrixIndex>90</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>240</KeyId>
+      <KeyName>F23</KeyName>
+      <KeyNameFull>F23</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569419</modified_at>
+      <DLLKeyId>240</DLLKeyId>
+      <DLLKeyName>F23</DLLKeyName>
+      <DLLMatrixIndex>99</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>241</KeyId>
+      <KeyName>F24</KeyName>
+      <KeyNameFull>F24</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569422</modified_at>
+      <DLLKeyId>241</DLLKeyId>
+      <DLLKeyName>F24</DLLKeyName>
+      <DLLMatrixIndex>108</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>44</KeyId>
+      <KeyName>Prt Sc</KeyName>
+      <KeyNameFull>Print Screen</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569424</modified_at>
+      <DLLKeyId>124</DLLKeyId>
+      <DLLKeyName>Print Screen</DLLKeyName>
+      <DLLMatrixIndex>70</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>145</KeyId>
+      <KeyName>Scroll Lk</KeyName>
+      <KeyNameFull>Scroll Lock</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569427</modified_at>
+      <DLLKeyId>125</DLLKeyId>
+      <DLLKeyName>Scroll Lock</DLLKeyName>
+      <DLLMatrixIndex>71</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>19</KeyId>
+      <KeyName>Pause</KeyName>
+      <KeyNameFull>Pause</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.856943</modified_at>
+      <DLLKeyId>126</DLLKeyId>
+      <DLLKeyName>Pause</DLLKeyName>
+      <DLLMatrixIndex>72</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>45</KeyId>
+      <KeyName>Ins</KeyName>
+      <KeyNameFull>Insert</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569433</modified_at>
+      <DLLKeyId>75</DLLKeyId>
+      <DLLKeyName>Insert</DLLKeyName>
+      <DLLMatrixIndex>73</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>36</KeyId>
+      <KeyName>Home</KeyName>
+      <KeyNameFull>Home</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569436</modified_at>
+      <DLLKeyId>80</DLLKeyId>
+      <DLLKeyName>Home</DLLKeyName>
+      <DLLMatrixIndex>74</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>33</KeyId>
+      <KeyName>PgUp</KeyName>
+      <KeyNameFull>Page Up</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569477</modified_at>
+      <DLLKeyId>85</DLLKeyId>
+      <DLLKeyName>Page Up</DLLKeyName>
+      <DLLMatrixIndex>75</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>35</KeyId>
+      <KeyName>End</KeyName>
+      <KeyNameFull>End</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.856948</modified_at>
+      <DLLKeyId>81</DLLKeyId>
+      <DLLKeyName>End</DLLKeyName>
+      <DLLMatrixIndex>77</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>34</KeyId>
+      <KeyName>PgDn</KeyName>
+      <KeyNameFull>Page Down</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569483</modified_at>
+      <DLLKeyId>86</DLLKeyId>
+      <DLLKeyName>Page Down</DLLKeyName>
+      <DLLMatrixIndex>78</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>192</KeyId>
+      <KeyName>`</KeyName>
+      <KeyNameFull>Backquote</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569486</modified_at>
+      <DLLKeyId>1</DLLKeyId>
+      <DLLKeyName>`</DLLKeyName>
+      <DLLMatrixIndex>53</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>144</KeyId>
+      <KeyName>Num Lk</KeyName>
+      <KeyNameFull>Num Lock</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.856949</modified_at>
+      <DLLKeyId>90</DLLKeyId>
+      <DLLKeyName>Num Lock</DLLKeyName>
+      <DLLMatrixIndex>100</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>96</KeyId>
+      <KeyName>Num 0</KeyName>
+      <KeyNameFull>Numpad 0</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569493</modified_at>
+      <DLLKeyId>99</DLLKeyId>
+      <DLLKeyName>Keypad 0 Insert</DLLKeyName>
+      <DLLMatrixIndex>115</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>97</KeyId>
+      <KeyName>Num 1</KeyName>
+      <KeyNameFull>Numpad 1</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569496</modified_at>
+      <DLLKeyId>93</DLLKeyId>
+      <DLLKeyName>Keypad 1 End</DLLKeyName>
+      <DLLMatrixIndex>112</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>98</KeyId>
+      <KeyName>Num 2</KeyName>
+      <KeyNameFull>Numpad 2</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569499</modified_at>
+      <DLLKeyId>98</DLLKeyId>
+      <DLLKeyName>Keypad 2 Down</DLLKeyName>
+      <DLLMatrixIndex>113</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>99</KeyId>
+      <KeyName>Num 3</KeyName>
+      <KeyNameFull>Numpad 3</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569501</modified_at>
+      <DLLKeyId>103</DLLKeyId>
+      <DLLKeyName>Keypad 3 PageDn</DLLKeyName>
+      <DLLMatrixIndex>114</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>100</KeyId>
+      <KeyName>Num 4</KeyName>
+      <KeyNameFull>Numpad 4</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569505</modified_at>
+      <DLLKeyId>92</DLLKeyId>
+      <DLLKeyName>Keypad 4 Left</DLLKeyName>
+      <DLLMatrixIndex>109</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>101</KeyId>
+      <KeyName>Num 5</KeyName>
+      <KeyNameFull>Numpad 5</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569508</modified_at>
+      <DLLKeyId>97</DLLKeyId>
+      <DLLKeyName>Clear</DLLKeyName>
+      <DLLMatrixIndex>110</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>102</KeyId>
+      <KeyName>Num 6</KeyName>
+      <KeyNameFull>Numpad 6</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.856951</modified_at>
+      <DLLKeyId>102</DLLKeyId>
+      <DLLKeyName>Keypad 6 Right</DLLKeyName>
+      <DLLMatrixIndex>111</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>103</KeyId>
+      <KeyName>Num 7</KeyName>
+      <KeyNameFull>Numpad 7</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569542</modified_at>
+      <DLLKeyId>91</DLLKeyId>
+      <DLLKeyName>Keypad 7 Home</DLLKeyName>
+      <DLLMatrixIndex>106</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>104</KeyId>
+      <KeyName>Num 8</KeyName>
+      <KeyNameFull>Numpad 8</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569545</modified_at>
+      <DLLKeyId>96</DLLKeyId>
+      <DLLKeyName>Keypad 8 Up</DLLKeyName>
+      <DLLMatrixIndex>107</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>105</KeyId>
+      <KeyName>Num 9</KeyName>
+      <KeyNameFull>Numpad 9</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569548</modified_at>
+      <DLLKeyId>101</DLLKeyId>
+      <DLLKeyName>Keypad 9 PageUp</DLLKeyName>
+      <DLLMatrixIndex>108</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>106</KeyId>
+      <KeyName>Num *</KeyName>
+      <KeyNameFull>Numpad Multiply</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569551</modified_at>
+      <DLLKeyId>100</DLLKeyId>
+      <DLLKeyName>*</DLLKeyName>
+      <DLLMatrixIndex>102</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>107</KeyId>
+      <KeyName>Num +</KeyName>
+      <KeyNameFull>Numpad Add</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569554</modified_at>
+      <DLLKeyId>106</DLLKeyId>
+      <DLLKeyName>+</DLLKeyName>
+      <DLLMatrixIndex>104</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>109</KeyId>
+      <KeyName>Num -</KeyName>
+      <KeyNameFull>Numpad Subtract</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569557</modified_at>
+      <DLLKeyId>105</DLLKeyId>
+      <DLLKeyName>Keypad -</DLLKeyName>
+      <DLLMatrixIndex>103</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>110</KeyId>
+      <KeyName>Num .</KeyName>
+      <KeyNameFull>Numpad Decimal</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.856956</modified_at>
+      <DLLKeyId>104</DLLKeyId>
+      <DLLKeyName>. &gt;</DLLKeyName>
+      <DLLMatrixIndex>116</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>111</KeyId>
+      <KeyName>Num /</KeyName>
+      <KeyNameFull>Numpad Divide</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569595</modified_at>
+      <DLLKeyId>95</DLLKeyId>
+      <DLLKeyName>/ ?</DLLKeyName>
+      <DLLMatrixIndex>101</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>3612</KeyId>
+      <KeyName>Num Enter</KeyName>
+      <KeyNameFull>Numpad Enter</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569599</modified_at>
+      <DLLKeyId>108</DLLKeyId>
+      <DLLKeyName>Keypad Enter</DLLKeyName>
+      <DLLMatrixIndex>105</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>27</KeyId>
+      <KeyName>Esc</KeyName>
+      <KeyNameFull>Escape</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569602</modified_at>
+      <DLLKeyId>110</DLLKeyId>
+      <DLLKeyName>Escape</DLLKeyName>
+      <DLLMatrixIndex>0</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>49</KeyId>
+      <KeyName>1</KeyName>
+      <KeyNameFull>1</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569605</modified_at>
+      <DLLKeyId>2</DLLKeyId>
+      <DLLKeyName>1</DLLKeyName>
+      <DLLMatrixIndex>1</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>50</KeyId>
+      <KeyName>2</KeyName>
+      <KeyNameFull>2</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569608</modified_at>
+      <DLLKeyId>3</DLLKeyId>
+      <DLLKeyName>2</DLLKeyName>
+      <DLLMatrixIndex>2</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>51</KeyId>
+      <KeyName>3</KeyName>
+      <KeyNameFull>3</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569611</modified_at>
+      <DLLKeyId>4</DLLKeyId>
+      <DLLKeyName>3</DLLKeyName>
+      <DLLMatrixIndex>3</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>52</KeyId>
+      <KeyName>4</KeyName>
+      <KeyNameFull>4</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569614</modified_at>
+      <DLLKeyId>5</DLLKeyId>
+      <DLLKeyName>4</DLLKeyName>
+      <DLLMatrixIndex>4</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>53</KeyId>
+      <KeyName>5</KeyName>
+      <KeyNameFull>5</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569617</modified_at>
+      <DLLKeyId>6</DLLKeyId>
+      <DLLKeyName>5</DLLKeyName>
+      <DLLMatrixIndex>5</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>54</KeyId>
+      <KeyName>6</KeyName>
+      <KeyNameFull>6</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.856962</modified_at>
+      <DLLKeyId>7</DLLKeyId>
+      <DLLKeyName>6</DLLKeyName>
+      <DLLMatrixIndex>6</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>55</KeyId>
+      <KeyName>7</KeyName>
+      <KeyNameFull>7</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569623</modified_at>
+      <DLLKeyId>8</DLLKeyId>
+      <DLLKeyName>7</DLLKeyName>
+      <DLLMatrixIndex>7</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>56</KeyId>
+      <KeyName>8</KeyName>
+      <KeyNameFull>8</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569626</modified_at>
+      <DLLKeyId>9</DLLKeyId>
+      <DLLKeyName>8</DLLKeyName>
+      <DLLMatrixIndex>8</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>57</KeyId>
+      <KeyName>9</KeyName>
+      <KeyNameFull>9</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569629</modified_at>
+      <DLLKeyId>10</DLLKeyId>
+      <DLLKeyName>9</DLLKeyName>
+      <DLLMatrixIndex>9</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>48</KeyId>
+      <KeyName>0</KeyName>
+      <KeyNameFull>0</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569632</modified_at>
+      <DLLKeyId>11</DLLKeyId>
+      <DLLKeyName>0</DLLKeyName>
+      <DLLMatrixIndex>10</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>189</KeyId>
+      <KeyName>-</KeyName>
+      <KeyNameFull>Minus</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569635</modified_at>
+      <DLLKeyId>12</DLLKeyId>
+      <DLLKeyName>-</DLLKeyName>
+      <DLLMatrixIndex>11</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>187</KeyId>
+      <KeyName>=</KeyName>
+      <KeyNameFull>Equal</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569638</modified_at>
+      <DLLKeyId>13</DLLKeyId>
+      <DLLKeyName>=</DLLKeyName>
+      <DLLMatrixIndex>12</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>8</KeyId>
+      <KeyName>⭠</KeyName>
+      <KeyNameFull>Backspace</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569641</modified_at>
+      <DLLKeyId>15</DLLKeyId>
+      <DLLKeyName>Backspace</DLLKeyName>
+      <DLLMatrixIndex>13</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>9</KeyId>
+      <KeyName>Tab↹</KeyName>
+      <KeyNameFull>Tab</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569644</modified_at>
+      <DLLKeyId>16</DLLKeyId>
+      <DLLKeyName>Tab</DLLKeyName>
+      <DLLMatrixIndex>14</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>81</KeyId>
+      <KeyName>Q</KeyName>
+      <KeyNameFull>Q</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569648</modified_at>
+      <DLLKeyId>17</DLLKeyId>
+      <DLLKeyName>Q</DLLKeyName>
+      <DLLMatrixIndex>15</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>87</KeyId>
+      <KeyName>W</KeyName>
+      <KeyNameFull>W</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.856965</modified_at>
+      <DLLKeyId>18</DLLKeyId>
+      <DLLKeyName>W</DLLKeyName>
+      <DLLMatrixIndex>16</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>69</KeyId>
+      <KeyName>E</KeyName>
+      <KeyNameFull>E</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569653</modified_at>
+      <DLLKeyId>19</DLLKeyId>
+      <DLLKeyName>E</DLLKeyName>
+      <DLLMatrixIndex>17</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>82</KeyId>
+      <KeyName>R</KeyName>
+      <KeyNameFull>R</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569689</modified_at>
+      <DLLKeyId>20</DLLKeyId>
+      <DLLKeyName>R</DLLKeyName>
+      <DLLMatrixIndex>18</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>84</KeyId>
+      <KeyName>T</KeyName>
+      <KeyNameFull>T</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569692</modified_at>
+      <DLLKeyId>21</DLLKeyId>
+      <DLLKeyName>T</DLLKeyName>
+      <DLLMatrixIndex>19</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>89</KeyId>
+      <KeyName>Y</KeyName>
+      <KeyNameFull>Y</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569695</modified_at>
+      <DLLKeyId>22</DLLKeyId>
+      <DLLKeyName>Y</DLLKeyName>
+      <DLLMatrixIndex>20</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>85</KeyId>
+      <KeyName>U</KeyName>
+      <KeyNameFull>U</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569698</modified_at>
+      <DLLKeyId>23</DLLKeyId>
+      <DLLKeyName>U</DLLKeyName>
+      <DLLMatrixIndex>21</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>73</KeyId>
+      <KeyName>I</KeyName>
+      <KeyNameFull>I</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569701</modified_at>
+      <DLLKeyId>24</DLLKeyId>
+      <DLLKeyName>I</DLLKeyName>
+      <DLLMatrixIndex>22</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>79</KeyId>
+      <KeyName>O</KeyName>
+      <KeyNameFull>O</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569704</modified_at>
+      <DLLKeyId>25</DLLKeyId>
+      <DLLKeyName>O</DLLKeyName>
+      <DLLMatrixIndex>23</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>80</KeyId>
+      <KeyName>P</KeyName>
+      <KeyNameFull>P</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569707</modified_at>
+      <DLLKeyId>26</DLLKeyId>
+      <DLLKeyName>P</DLLKeyName>
+      <DLLMatrixIndex>24</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>219</KeyId>
+      <KeyName>[</KeyName>
+      <KeyNameFull>Bracket Left</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.856971</modified_at>
+      <DLLKeyId>27</DLLKeyId>
+      <DLLKeyName>[</DLLKeyName>
+      <DLLMatrixIndex>25</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>221</KeyId>
+      <KeyName>]</KeyName>
+      <KeyNameFull>Bracket Right</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569713</modified_at>
+      <DLLKeyId>28</DLLKeyId>
+      <DLLKeyName>]</DLLKeyName>
+      <DLLMatrixIndex>26</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>220</KeyId>
+      <KeyName>\</KeyName>
+      <KeyNameFull>Backslash</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569716</modified_at>
+      <DLLKeyId>29</DLLKeyId>
+      <DLLKeyName>\</DLLKeyName>
+      <DLLMatrixIndex>27</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>20</KeyId>
+      <KeyName>Caps Lk</KeyName>
+      <KeyNameFull>Caps Lock</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569719</modified_at>
+      <DLLKeyId>30</DLLKeyId>
+      <DLLKeyName>CapsLock</DLLKeyName>
+      <DLLMatrixIndex>28</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>65</KeyId>
+      <KeyName>A</KeyName>
+      <KeyNameFull>A</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569722</modified_at>
+      <DLLKeyId>31</DLLKeyId>
+      <DLLKeyName>A</DLLKeyName>
+      <DLLMatrixIndex>29</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>83</KeyId>
+      <KeyName>S</KeyName>
+      <KeyNameFull>S</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569725</modified_at>
+      <DLLKeyId>32</DLLKeyId>
+      <DLLKeyName>S</DLLKeyName>
+      <DLLMatrixIndex>30</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>68</KeyId>
+      <KeyName>D</KeyName>
+      <KeyNameFull>D</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569728</modified_at>
+      <DLLKeyId>33</DLLKeyId>
+      <DLLKeyName>D</DLLKeyName>
+      <DLLMatrixIndex>31</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>70</KeyId>
+      <KeyName>F</KeyName>
+      <KeyNameFull>F</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569731</modified_at>
+      <DLLKeyId>34</DLLKeyId>
+      <DLLKeyName>F</DLLKeyName>
+      <DLLMatrixIndex>32</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>71</KeyId>
+      <KeyName>G</KeyName>
+      <KeyNameFull>G</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569733</modified_at>
+      <DLLKeyId>35</DLLKeyId>
+      <DLLKeyName>G</DLLKeyName>
+      <DLLMatrixIndex>33</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>72</KeyId>
+      <KeyName>H</KeyName>
+      <KeyNameFull>H</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569736</modified_at>
+      <DLLKeyId>36</DLLKeyId>
+      <DLLKeyName>H</DLLKeyName>
+      <DLLMatrixIndex>34</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>74</KeyId>
+      <KeyName>J</KeyName>
+      <KeyNameFull>J</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569739</modified_at>
+      <DLLKeyId>37</DLLKeyId>
+      <DLLKeyName>J</DLLKeyName>
+      <DLLMatrixIndex>35</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>75</KeyId>
+      <KeyName>K</KeyName>
+      <KeyNameFull>K</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569742</modified_at>
+      <DLLKeyId>38</DLLKeyId>
+      <DLLKeyName>K</DLLKeyName>
+      <DLLMatrixIndex>36</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>76</KeyId>
+      <KeyName>L</KeyName>
+      <KeyNameFull>L</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569745</modified_at>
+      <DLLKeyId>39</DLLKeyId>
+      <DLLKeyName>L</DLLKeyName>
+      <DLLMatrixIndex>37</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>186</KeyId>
+      <KeyName>;</KeyName>
+      <KeyNameFull>Semicolon</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.856978</modified_at>
+      <DLLKeyId>40</DLLKeyId>
+      <DLLKeyName>;</DLLKeyName>
+      <DLLMatrixIndex>38</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>222</KeyId>
+      <KeyName>'</KeyName>
+      <KeyNameFull>Quote</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569789</modified_at>
+      <DLLKeyId>41</DLLKeyId>
+      <DLLKeyName>'</DLLKeyName>
+      <DLLMatrixIndex>39</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>13</KeyId>
+      <KeyName>Enter↵</KeyName>
+      <KeyNameFull>Enter</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569792</modified_at>
+      <DLLKeyId>43</DLLKeyId>
+      <DLLKeyName />
+      <DLLMatrixIndex>41</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>160</KeyId>
+      <KeyName>↑Shift</KeyName>
+      <KeyNameFull>Shift Left</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8569796</modified_at>
+      <DLLKeyId>44</DLLKeyId>
+      <DLLKeyName>Shift</DLLKeyName>
+      <DLLMatrixIndex>42</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>90</KeyId>
+      <KeyName>Z</KeyName>
+      <KeyNameFull>Z</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:18:29.9011186</modified_at>
+      <DLLKeyId>46</DLLKeyId>
+      <DLLKeyName>Z</DLLKeyName>
+      <DLLMatrixIndex>43</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>88</KeyId>
+      <KeyName>X</KeyName>
+      <KeyNameFull>X</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571306</modified_at>
+      <DLLKeyId>47</DLLKeyId>
+      <DLLKeyName>X</DLLKeyName>
+      <DLLMatrixIndex>44</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>67</KeyId>
+      <KeyName>C</KeyName>
+      <KeyNameFull>C</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571309</modified_at>
+      <DLLKeyId>48</DLLKeyId>
+      <DLLKeyName>C</DLLKeyName>
+      <DLLMatrixIndex>45</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>86</KeyId>
+      <KeyName>V</KeyName>
+      <KeyNameFull>V</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571313</modified_at>
+      <DLLKeyId>49</DLLKeyId>
+      <DLLKeyName>V</DLLKeyName>
+      <DLLMatrixIndex>46</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>66</KeyId>
+      <KeyName>B</KeyName>
+      <KeyNameFull>B</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571316</modified_at>
+      <DLLKeyId>50</DLLKeyId>
+      <DLLKeyName>B</DLLKeyName>
+      <DLLMatrixIndex>47</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>78</KeyId>
+      <KeyName>N</KeyName>
+      <KeyNameFull>N</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571319</modified_at>
+      <DLLKeyId>51</DLLKeyId>
+      <DLLKeyName>N</DLLKeyName>
+      <DLLMatrixIndex>48</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>77</KeyId>
+      <KeyName>M</KeyName>
+      <KeyNameFull>M</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571321</modified_at>
+      <DLLKeyId>52</DLLKeyId>
+      <DLLKeyName>M</DLLKeyName>
+      <DLLMatrixIndex>49</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>188</KeyId>
+      <KeyName>,</KeyName>
+      <KeyNameFull>Comma</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571324</modified_at>
+      <DLLKeyId>53</DLLKeyId>
+      <DLLKeyName>,</DLLKeyName>
+      <DLLMatrixIndex>50</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>190</KeyId>
+      <KeyName>.</KeyName>
+      <KeyNameFull>Period</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571327</modified_at>
+      <DLLKeyId>54</DLLKeyId>
+      <DLLKeyName>.</DLLKeyName>
+      <DLLMatrixIndex>51</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>191</KeyId>
+      <KeyName>/</KeyName>
+      <KeyNameFull>Slash</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571363</modified_at>
+      <DLLKeyId>55</DLLKeyId>
+      <DLLKeyName>/</DLLKeyName>
+      <DLLMatrixIndex>52</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>161</KeyId>
+      <KeyName>Shift</KeyName>
+      <KeyNameFull>Shift Right</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571369</modified_at>
+      <DLLKeyId>57</DLLKeyId>
+      <DLLKeyName>Shift</DLLKeyName>
+      <DLLMatrixIndex>53</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>38</KeyId>
+      <KeyName>↑</KeyName>
+      <KeyNameFull>Arrow Up</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571372</modified_at>
+      <DLLKeyId>83</DLLKeyId>
+      <DLLKeyName>Up Arrow</DLLKeyName>
+      <DLLMatrixIndex>54</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>46</KeyId>
+      <KeyName>Del</KeyName>
+      <KeyNameFull>Delete</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571375</modified_at>
+      <DLLKeyId>76</DLLKeyId>
+      <DLLKeyName>Delete</DLLKeyName>
+      <DLLMatrixIndex>55</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>162</KeyId>
+      <KeyName>Ctrl</KeyName>
+      <KeyNameFull>Control Left</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571378</modified_at>
+      <DLLKeyId>58</DLLKeyId>
+      <DLLKeyName>CTRL</DLLKeyName>
+      <DLLMatrixIndex>56</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>164</KeyId>
+      <KeyName>Alt</KeyName>
+      <KeyNameFull>Alt Left</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571381</modified_at>
+      <DLLKeyId>60</DLLKeyId>
+      <DLLKeyName>Alt</DLLKeyName>
+      <DLLMatrixIndex>58</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>91</KeyId>
+      <KeyName>⊞</KeyName>
+      <KeyNameFull>Win L</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571435</modified_at>
+      <DLLKeyId>59</DLLKeyId>
+      <DLLKeyName>Win</DLLKeyName>
+      <DLLMatrixIndex>57</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>32</KeyId>
+      <KeyName>Space</KeyName>
+      <KeyNameFull>Space</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571438</modified_at>
+      <DLLKeyId>61</DLLKeyId>
+      <DLLKeyName>Space</DLLKeyName>
+      <DLLMatrixIndex>61</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>165</KeyId>
+      <KeyName>Alt</KeyName>
+      <KeyNameFull>Alt Right</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571441</modified_at>
+      <DLLKeyId>62</DLLKeyId>
+      <DLLKeyName>Alt</DLLKeyName>
+      <DLLMatrixIndex>64</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>37</KeyId>
+      <KeyName>←</KeyName>
+      <KeyNameFull>Arrow Left</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571444</modified_at>
+      <DLLKeyId>79</DLLKeyId>
+      <DLLKeyName>Left Arrow</DLLKeyName>
+      <DLLMatrixIndex>67</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>40</KeyId>
+      <KeyName>↓</KeyName>
+      <KeyNameFull>Arrow Down</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571446</modified_at>
+      <DLLKeyId>84</DLLKeyId>
+      <DLLKeyName>Down Arrow</DLLKeyName>
+      <DLLMatrixIndex>68</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>39</KeyId>
+      <KeyName>→</KeyName>
+      <KeyNameFull>Arrow Right</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:19:13.055041</modified_at>
+      <DLLKeyId>89</DLLKeyId>
+      <DLLKeyName>Right Arrow</DLLKeyName>
+      <DLLMatrixIndex>69</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>163</KeyId>
+      <KeyName>RCtrl</KeyName>
+      <KeyNameFull>Control Right</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571453</modified_at>
+      <DLLKeyId>64</DLLKeyId>
+      <DLLKeyName>CTRL</DLLKeyName>
+      <DLLMatrixIndex>228</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>92</KeyId>
+      <KeyName>⊞</KeyName>
+      <KeyNameFull>Win R</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571456</modified_at>
+      <DLLKeyId>63</DLLKeyId>
+      <DLLKeyName>Win</DLLKeyName>
+      <DLLMatrixIndex>231</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>261</KeyId>
+      <KeyName>Fn</KeyName>
+      <KeyNameFull>Fn</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2022-09-08T18:08:00.8571459</modified_at>
+      <DLLKeyId>154</DLLKeyId>
+      <DLLKeyName>FN</DLLKeyName>
+      <DLLMatrixIndex>66</DLLMatrixIndex>
+      <LayerType>1</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>112</KeyId>
+      <KeyName>FN + F1</KeyName>
+      <KeyNameFull>FN + F1</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418839</modified_at>
+      <DLLKeyId>112</DLLKeyId>
+      <DLLKeyName>F1</DLLKeyName>
+      <DLLMatrixIndex>58</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>113</KeyId>
+      <KeyName>FN + F2</KeyName>
+      <KeyNameFull>FN + F2</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418857</modified_at>
+      <DLLKeyId>113</DLLKeyId>
+      <DLLKeyName>F2</DLLKeyName>
+      <DLLMatrixIndex>59</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>114</KeyId>
+      <KeyName>FN + F3</KeyName>
+      <KeyNameFull>FN + F3</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441886</modified_at>
+      <DLLKeyId>114</DLLKeyId>
+      <DLLKeyName>F3</DLLKeyName>
+      <DLLMatrixIndex>60</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>115</KeyId>
+      <KeyName>FN + F4</KeyName>
+      <KeyNameFull>FN + F4</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418863</modified_at>
+      <DLLKeyId>115</DLLKeyId>
+      <DLLKeyName>F4</DLLKeyName>
+      <DLLMatrixIndex>61</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>116</KeyId>
+      <KeyName>FN + F5</KeyName>
+      <KeyNameFull>FN + F5</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418866</modified_at>
+      <DLLKeyId>116</DLLKeyId>
+      <DLLKeyName>F5</DLLKeyName>
+      <DLLMatrixIndex>62</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>117</KeyId>
+      <KeyName>FN + F6</KeyName>
+      <KeyNameFull>FN + F6</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441887</modified_at>
+      <DLLKeyId>117</DLLKeyId>
+      <DLLKeyName>F6</DLLKeyName>
+      <DLLMatrixIndex>63</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>118</KeyId>
+      <KeyName>FN + F7</KeyName>
+      <KeyNameFull>FN + F7</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418873</modified_at>
+      <DLLKeyId>118</DLLKeyId>
+      <DLLKeyName>F7</DLLKeyName>
+      <DLLMatrixIndex>64</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>119</KeyId>
+      <KeyName>FN + F8</KeyName>
+      <KeyNameFull>FN + F8</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418876</modified_at>
+      <DLLKeyId>119</DLLKeyId>
+      <DLLKeyName>F8</DLLKeyName>
+      <DLLMatrixIndex>65</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>120</KeyId>
+      <KeyName>FN + F9</KeyName>
+      <KeyNameFull>FN + F9</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418879</modified_at>
+      <DLLKeyId>120</DLLKeyId>
+      <DLLKeyName>F9</DLLKeyName>
+      <DLLMatrixIndex>66</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>121</KeyId>
+      <KeyName>FN + F10</KeyName>
+      <KeyNameFull>FN + F10</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418883</modified_at>
+      <DLLKeyId>121</DLLKeyId>
+      <DLLKeyName>F10</DLLKeyName>
+      <DLLMatrixIndex>67</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>122</KeyId>
+      <KeyName>FN + F11</KeyName>
+      <KeyNameFull>FN + F11</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418887</modified_at>
+      <DLLKeyId>122</DLLKeyId>
+      <DLLKeyName>F11</DLLKeyName>
+      <DLLMatrixIndex>68</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>123</KeyId>
+      <KeyName>FN + F12</KeyName>
+      <KeyNameFull>FN + F12</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441889</modified_at>
+      <DLLKeyId>123</DLLKeyId>
+      <DLLKeyName>F12</DLLKeyName>
+      <DLLMatrixIndex>69</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>230</KeyId>
+      <KeyName>FN + F13</KeyName>
+      <KeyNameFull>FN + F13</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418893</modified_at>
+      <DLLKeyId>230</DLLKeyId>
+      <DLLKeyName>F13</DLLKeyName>
+      <DLLMatrixIndex>9</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>231</KeyId>
+      <KeyName>FN + F14</KeyName>
+      <KeyNameFull>FN + F14</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418896</modified_at>
+      <DLLKeyId>231</DLLKeyId>
+      <DLLKeyName>F14</DLLKeyName>
+      <DLLMatrixIndex>18</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>232</KeyId>
+      <KeyName>FN + F15</KeyName>
+      <KeyNameFull>FN + F15</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418899</modified_at>
+      <DLLKeyId>232</DLLKeyId>
+      <DLLKeyName>F15</DLLKeyName>
+      <DLLMatrixIndex>27</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>233</KeyId>
+      <KeyName>FN + F16</KeyName>
+      <KeyNameFull>FN + F16</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418903</modified_at>
+      <DLLKeyId>233</DLLKeyId>
+      <DLLKeyName>F16</DLLKeyName>
+      <DLLMatrixIndex>36</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>234</KeyId>
+      <KeyName>FN + F17</KeyName>
+      <KeyNameFull>FN + F17</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418906</modified_at>
+      <DLLKeyId>234</DLLKeyId>
+      <DLLKeyName>F17</DLLKeyName>
+      <DLLMatrixIndex>45</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>235</KeyId>
+      <KeyName>FN + F18</KeyName>
+      <KeyNameFull>FN + F18</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441891</modified_at>
+      <DLLKeyId>235</DLLKeyId>
+      <DLLKeyName>F18</DLLKeyName>
+      <DLLMatrixIndex>54</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>236</KeyId>
+      <KeyName>FN + F19</KeyName>
+      <KeyNameFull>FN + F19</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418913</modified_at>
+      <DLLKeyId>236</DLLKeyId>
+      <DLLKeyName>F19</DLLKeyName>
+      <DLLMatrixIndex>63</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>237</KeyId>
+      <KeyName>FN + F20</KeyName>
+      <KeyNameFull>FN + F20</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418916</modified_at>
+      <DLLKeyId>237</DLLKeyId>
+      <DLLKeyName>F20</DLLKeyName>
+      <DLLMatrixIndex>72</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>238</KeyId>
+      <KeyName>FN + F21</KeyName>
+      <KeyNameFull>FN + F21</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418919</modified_at>
+      <DLLKeyId>238</DLLKeyId>
+      <DLLKeyName>F21</DLLKeyName>
+      <DLLMatrixIndex>81</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>239</KeyId>
+      <KeyName>FN + F22</KeyName>
+      <KeyNameFull>FN + F22</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418922</modified_at>
+      <DLLKeyId>239</DLLKeyId>
+      <DLLKeyName>F22</DLLKeyName>
+      <DLLMatrixIndex>90</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>240</KeyId>
+      <KeyName>FN + F23</KeyName>
+      <KeyNameFull>FN + F23</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418925</modified_at>
+      <DLLKeyId>240</DLLKeyId>
+      <DLLKeyName>F23</DLLKeyName>
+      <DLLMatrixIndex>99</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>241</KeyId>
+      <KeyName>FN + F24</KeyName>
+      <KeyNameFull>FN + F24</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418927</modified_at>
+      <DLLKeyId>241</DLLKeyId>
+      <DLLKeyName>F24</DLLKeyName>
+      <DLLMatrixIndex>108</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>44</KeyId>
+      <KeyName>FN + Prt Sc</KeyName>
+      <KeyNameFull>FN + Print Screen</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441893</modified_at>
+      <DLLKeyId>124</DLLKeyId>
+      <DLLKeyName>Print Screen</DLLKeyName>
+      <DLLMatrixIndex>70</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>145</KeyId>
+      <KeyName>FN + Scroll Lk</KeyName>
+      <KeyNameFull>FN + Scroll Lock</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418933</modified_at>
+      <DLLKeyId>125</DLLKeyId>
+      <DLLKeyName>Scroll Lock</DLLKeyName>
+      <DLLMatrixIndex>71</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>19</KeyId>
+      <KeyName>FN + Pause</KeyName>
+      <KeyNameFull>FN + Pause</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418936</modified_at>
+      <DLLKeyId>126</DLLKeyId>
+      <DLLKeyName>Pause</DLLKeyName>
+      <DLLMatrixIndex>72</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>45</KeyId>
+      <KeyName>FN + Ins</KeyName>
+      <KeyNameFull>FN + Insert</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441894</modified_at>
+      <DLLKeyId>75</DLLKeyId>
+      <DLLKeyName>Insert</DLLKeyName>
+      <DLLMatrixIndex>73</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>36</KeyId>
+      <KeyName>FN + Home</KeyName>
+      <KeyNameFull>FN + Home</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418942</modified_at>
+      <DLLKeyId>80</DLLKeyId>
+      <DLLKeyName>Home</DLLKeyName>
+      <DLLMatrixIndex>74</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>33</KeyId>
+      <KeyName>FN + PgUp</KeyName>
+      <KeyNameFull>FN + Page Up</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418945</modified_at>
+      <DLLKeyId>85</DLLKeyId>
+      <DLLKeyName>Page Up</DLLKeyName>
+      <DLLMatrixIndex>75</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>35</KeyId>
+      <KeyName>FN + End</KeyName>
+      <KeyNameFull>FN + End</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418948</modified_at>
+      <DLLKeyId>81</DLLKeyId>
+      <DLLKeyName>End</DLLKeyName>
+      <DLLMatrixIndex>77</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>34</KeyId>
+      <KeyName>FN + PgDn</KeyName>
+      <KeyNameFull>FN + Page Down</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418951</modified_at>
+      <DLLKeyId>86</DLLKeyId>
+      <DLLKeyName>Page Down</DLLKeyName>
+      <DLLMatrixIndex>78</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>192</KeyId>
+      <KeyName>FN + `</KeyName>
+      <KeyNameFull>FN + Backquote</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418954</modified_at>
+      <DLLKeyId>1</DLLKeyId>
+      <DLLKeyName>`</DLLKeyName>
+      <DLLMatrixIndex>53</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>144</KeyId>
+      <KeyName>FN + Num Lk</KeyName>
+      <KeyNameFull>FN + Num Lock</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418957</modified_at>
+      <DLLKeyId>90</DLLKeyId>
+      <DLLKeyName>Num Lock</DLLKeyName>
+      <DLLMatrixIndex>100</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>96</KeyId>
+      <KeyName>FN + Num 0</KeyName>
+      <KeyNameFull>FN + Numpad 0</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441896</modified_at>
+      <DLLKeyId>99</DLLKeyId>
+      <DLLKeyName>Keypad 0 Insert</DLLKeyName>
+      <DLLMatrixIndex>115</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>97</KeyId>
+      <KeyName>FN + Num 1</KeyName>
+      <KeyNameFull>FN + Numpad 1</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418963</modified_at>
+      <DLLKeyId>93</DLLKeyId>
+      <DLLKeyName>Keypad 1 End</DLLKeyName>
+      <DLLMatrixIndex>112</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>98</KeyId>
+      <KeyName>FN + Num 2</KeyName>
+      <KeyNameFull>FN + Numpad 2</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418971</modified_at>
+      <DLLKeyId>98</DLLKeyId>
+      <DLLKeyName>Keypad 2 Down</DLLKeyName>
+      <DLLMatrixIndex>113</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>99</KeyId>
+      <KeyName>FN + Num 3</KeyName>
+      <KeyNameFull>FN + Numpad 3</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418974</modified_at>
+      <DLLKeyId>103</DLLKeyId>
+      <DLLKeyName>Keypad 3 PageDn</DLLKeyName>
+      <DLLMatrixIndex>114</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>100</KeyId>
+      <KeyName>FN + Num 4</KeyName>
+      <KeyNameFull>FN + Numpad 4</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418977</modified_at>
+      <DLLKeyId>92</DLLKeyId>
+      <DLLKeyName>Keypad 4 Left</DLLKeyName>
+      <DLLMatrixIndex>109</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>101</KeyId>
+      <KeyName>FN + Num 5</KeyName>
+      <KeyNameFull>FN + Numpad 5</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441898</modified_at>
+      <DLLKeyId>97</DLLKeyId>
+      <DLLKeyName>Clear</DLLKeyName>
+      <DLLMatrixIndex>110</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>102</KeyId>
+      <KeyName>FN + Num 6</KeyName>
+      <KeyNameFull>FN + Numpad 6</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418982</modified_at>
+      <DLLKeyId>102</DLLKeyId>
+      <DLLKeyName>Keypad 6 Right</DLLKeyName>
+      <DLLMatrixIndex>111</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>103</KeyId>
+      <KeyName>FN + Num 7</KeyName>
+      <KeyNameFull>FN + Numpad 7</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418985</modified_at>
+      <DLLKeyId>91</DLLKeyId>
+      <DLLKeyName>Keypad 7 Home</DLLKeyName>
+      <DLLMatrixIndex>106</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>104</KeyId>
+      <KeyName>FN + Num 8</KeyName>
+      <KeyNameFull>FN + Numpad 8</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418988</modified_at>
+      <DLLKeyId>96</DLLKeyId>
+      <DLLKeyName>Keypad 8 Up</DLLKeyName>
+      <DLLMatrixIndex>107</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>105</KeyId>
+      <KeyName>FN + Num 9</KeyName>
+      <KeyNameFull>FN + Numpad 9</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418991</modified_at>
+      <DLLKeyId>101</DLLKeyId>
+      <DLLKeyName>Keypad 9 PageUp</DLLKeyName>
+      <DLLMatrixIndex>108</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>106</KeyId>
+      <KeyName>FN + Num *</KeyName>
+      <KeyNameFull>FN + Numpad Multiply</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418993</modified_at>
+      <DLLKeyId>100</DLLKeyId>
+      <DLLKeyName>*</DLLKeyName>
+      <DLLMatrixIndex>102</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>107</KeyId>
+      <KeyName>FN + Num +</KeyName>
+      <KeyNameFull>FN + Numpad Add</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4418997</modified_at>
+      <DLLKeyId>106</DLLKeyId>
+      <DLLKeyName>+</DLLKeyName>
+      <DLLMatrixIndex>104</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>109</KeyId>
+      <KeyName>FN + Num -</KeyName>
+      <KeyNameFull>FN + Numpad Subtract</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419</modified_at>
+      <DLLKeyId>105</DLLKeyId>
+      <DLLKeyName>Keypad -</DLLKeyName>
+      <DLLMatrixIndex>103</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>110</KeyId>
+      <KeyName>FN + Num .</KeyName>
+      <KeyNameFull>FN + Numpad Decimal</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419003</modified_at>
+      <DLLKeyId>104</DLLKeyId>
+      <DLLKeyName>. &gt;</DLLKeyName>
+      <DLLMatrixIndex>116</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>111</KeyId>
+      <KeyName>FN + Num /</KeyName>
+      <KeyNameFull>FN + Numpad Divide</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419005</modified_at>
+      <DLLKeyId>95</DLLKeyId>
+      <DLLKeyName>/ ?</DLLKeyName>
+      <DLLMatrixIndex>101</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>3612</KeyId>
+      <KeyName>FN + Num Enter</KeyName>
+      <KeyNameFull>FN + Numpad Enter</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419008</modified_at>
+      <DLLKeyId>108</DLLKeyId>
+      <DLLKeyName>Keypad Enter</DLLKeyName>
+      <DLLMatrixIndex>105</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>27</KeyId>
+      <KeyName>FN + Esc</KeyName>
+      <KeyAlternateName>~`</KeyAlternateName>
+      <KeyNameFull>FN + Esc</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + Esc</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419011</modified_at>
+      <DLLKeyId>110</DLLKeyId>
+      <DLLKeyName>Escape</DLLKeyName>
+      <DLLMatrixIndex>0</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>49</KeyId>
+      <KeyName>FN + 1</KeyName>
+      <KeyAlternateName>F1</KeyAlternateName>
+      <KeyNameFull>FN + 1</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + 1</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419033</modified_at>
+      <DLLKeyId>2</DLLKeyId>
+      <DLLKeyName>1</DLLKeyName>
+      <DLLMatrixIndex>1</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>50</KeyId>
+      <KeyName>FN + 2</KeyName>
+      <KeyAlternateName>F2</KeyAlternateName>
+      <KeyNameFull>FN + 2</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + 2</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419126</modified_at>
+      <DLLKeyId>3</DLLKeyId>
+      <DLLKeyName>2</DLLKeyName>
+      <DLLMatrixIndex>2</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>51</KeyId>
+      <KeyName>FN + 3</KeyName>
+      <KeyAlternateName>F3</KeyAlternateName>
+      <KeyNameFull>FN + 3</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + 3</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419135</modified_at>
+      <DLLKeyId>4</DLLKeyId>
+      <DLLKeyName>3</DLLKeyName>
+      <DLLMatrixIndex>3</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>52</KeyId>
+      <KeyName>FN + 4</KeyName>
+      <KeyAlternateName>F4</KeyAlternateName>
+      <KeyNameFull>FN + 4</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + 4</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419143</modified_at>
+      <DLLKeyId>5</DLLKeyId>
+      <DLLKeyName>4</DLLKeyName>
+      <DLLMatrixIndex>4</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>53</KeyId>
+      <KeyName>FN + 5</KeyName>
+      <KeyAlternateName>F5</KeyAlternateName>
+      <KeyNameFull>FN + 5</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + 5</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441915</modified_at>
+      <DLLKeyId>6</DLLKeyId>
+      <DLLKeyName>5</DLLKeyName>
+      <DLLMatrixIndex>5</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>54</KeyId>
+      <KeyName>FN + 6</KeyName>
+      <KeyAlternateName>F6</KeyAlternateName>
+      <KeyNameFull>FN + 6</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + 6</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419157</modified_at>
+      <DLLKeyId>7</DLLKeyId>
+      <DLLKeyName>6</DLLKeyName>
+      <DLLMatrixIndex>6</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>55</KeyId>
+      <KeyName>FN + 7</KeyName>
+      <KeyAlternateName>F7</KeyAlternateName>
+      <KeyNameFull>FN + 7</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + 7</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419164</modified_at>
+      <DLLKeyId>8</DLLKeyId>
+      <DLLKeyName>7</DLLKeyName>
+      <DLLMatrixIndex>7</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>56</KeyId>
+      <KeyName>FN + 8</KeyName>
+      <KeyAlternateName>F8</KeyAlternateName>
+      <KeyNameFull>FN + 8</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + 8</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419172</modified_at>
+      <DLLKeyId>9</DLLKeyId>
+      <DLLKeyName>8</DLLKeyName>
+      <DLLMatrixIndex>8</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>57</KeyId>
+      <KeyName>FN + 9</KeyName>
+      <KeyAlternateName>F9</KeyAlternateName>
+      <KeyNameFull>FN + 9</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + 9</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419179</modified_at>
+      <DLLKeyId>10</DLLKeyId>
+      <DLLKeyName>9</DLLKeyName>
+      <DLLMatrixIndex>9</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>48</KeyId>
+      <KeyName>FN + 0</KeyName>
+      <KeyAlternateName>F10</KeyAlternateName>
+      <KeyNameFull>FN + 0</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + 10</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419185</modified_at>
+      <DLLKeyId>11</DLLKeyId>
+      <DLLKeyName>0</DLLKeyName>
+      <DLLMatrixIndex>10</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>189</KeyId>
+      <KeyName>FN + -</KeyName>
+      <KeyAlternateName>F11</KeyAlternateName>
+      <KeyNameFull>FN + Minus</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + 11</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419193</modified_at>
+      <DLLKeyId>12</DLLKeyId>
+      <DLLKeyName>-</DLLKeyName>
+      <DLLMatrixIndex>11</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>187</KeyId>
+      <KeyName>FN + =</KeyName>
+      <KeyAlternateName>F12</KeyAlternateName>
+      <KeyNameFull>FN + Equal</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + 12</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419204</modified_at>
+      <DLLKeyId>13</DLLKeyId>
+      <DLLKeyName>=</DLLKeyName>
+      <DLLMatrixIndex>12</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>8</KeyId>
+      <KeyName>FN + ⭠</KeyName>
+      <KeyNameFull>FN + Backspace</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419211</modified_at>
+      <DLLKeyId>15</DLLKeyId>
+      <DLLKeyName>Backspace</DLLKeyName>
+      <DLLMatrixIndex>13</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>9</KeyId>
+      <KeyName>FN + Tab↹</KeyName>
+      <KeyNameFull>FN + Tab</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419214</modified_at>
+      <DLLKeyId>16</DLLKeyId>
+      <DLLKeyName>Tab</DLLKeyName>
+      <DLLMatrixIndex>14</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>81</KeyId>
+      <KeyName>FN + Q</KeyName>
+      <KeyAlternateName>Profile Cycle ←</KeyAlternateName>
+      <KeyNameFull>FN + Q</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + Q</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419218</modified_at>
+      <DLLKeyId>17</DLLKeyId>
+      <DLLKeyName>Q</DLLKeyName>
+      <DLLMatrixIndex>15</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>87</KeyId>
+      <KeyName>FN + W</KeyName>
+      <KeyNameFull>FN + W</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419249</modified_at>
+      <DLLKeyId>18</DLLKeyId>
+      <DLLKeyName>W</DLLKeyName>
+      <DLLMatrixIndex>16</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>69</KeyId>
+      <KeyName>FN + E</KeyName>
+      <KeyAlternateName>Profile Cycle →</KeyAlternateName>
+      <KeyNameFull>FN + E</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + E</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419252</modified_at>
+      <DLLKeyId>19</DLLKeyId>
+      <DLLKeyName>E</DLLKeyName>
+      <DLLMatrixIndex>17</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>82</KeyId>
+      <KeyName>FN + R</KeyName>
+      <KeyAlternateName>Reset to factory default</KeyAlternateName>
+      <KeyNameFull>FN + R</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + R</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419261</modified_at>
+      <DLLKeyId>20</DLLKeyId>
+      <DLLKeyName>R</DLLKeyName>
+      <DLLMatrixIndex>18</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>84</KeyId>
+      <KeyName>FN + T</KeyName>
+      <KeyNameFull>FN + T</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419279</modified_at>
+      <DLLKeyId>21</DLLKeyId>
+      <DLLKeyName>T</DLLKeyName>
+      <DLLMatrixIndex>19</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>89</KeyId>
+      <KeyName>FN + Y</KeyName>
+      <KeyNameFull>FN + Y</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419283</modified_at>
+      <DLLKeyId>22</DLLKeyId>
+      <DLLKeyName>Y</DLLKeyName>
+      <DLLMatrixIndex>20</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>85</KeyId>
+      <KeyName>FN + U</KeyName>
+      <KeyAlternateName>Scr LK</KeyAlternateName>
+      <KeyNameFull>FN + U</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + U</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419287</modified_at>
+      <DLLKeyId>23</DLLKeyId>
+      <DLLKeyName>U</DLLKeyName>
+      <DLLMatrixIndex>21</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>73</KeyId>
+      <KeyName>FN + I</KeyName>
+      <KeyAlternateName>Ins</KeyAlternateName>
+      <KeyNameFull>FN + I</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + I</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419295</modified_at>
+      <DLLKeyId>24</DLLKeyId>
+      <DLLKeyName>I</DLLKeyName>
+      <DLLMatrixIndex>22</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>79</KeyId>
+      <KeyName>FN + O</KeyName>
+      <KeyAlternateName>Home</KeyAlternateName>
+      <KeyNameFull>FN + O</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + O</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419304</modified_at>
+      <DLLKeyId>25</DLLKeyId>
+      <DLLKeyName>O</DLLKeyName>
+      <DLLMatrixIndex>23</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>80</KeyId>
+      <KeyName>FN + P</KeyName>
+      <KeyAlternateName>Pg Up</KeyAlternateName>
+      <KeyNameFull>FN + P</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + P</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419312</modified_at>
+      <DLLKeyId>26</DLLKeyId>
+      <DLLKeyName>P</DLLKeyName>
+      <DLLMatrixIndex>24</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>219</KeyId>
+      <KeyName>FN + [</KeyName>
+      <KeyAlternateName>Volume down</KeyAlternateName>
+      <KeyNameFull>FN + Bracket Left</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + [</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441932</modified_at>
+      <DLLKeyId>27</DLLKeyId>
+      <DLLKeyName>[</DLLKeyName>
+      <DLLMatrixIndex>25</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>221</KeyId>
+      <KeyName>FN + ]</KeyName>
+      <KeyAlternateName>Volume up</KeyAlternateName>
+      <KeyNameFull>FN + Bracket Right</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + ]</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419328</modified_at>
+      <DLLKeyId>28</DLLKeyId>
+      <DLLKeyName>]</DLLKeyName>
+      <DLLMatrixIndex>26</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>220</KeyId>
+      <KeyName>FN + \</KeyName>
+      <KeyAlternateName>Mute</KeyAlternateName>
+      <KeyNameFull>FN + Backslash</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + \</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441934</modified_at>
+      <DLLKeyId>29</DLLKeyId>
+      <DLLKeyName>\</DLLKeyName>
+      <DLLMatrixIndex>27</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>20</KeyId>
+      <KeyName>FN + Caps Lk</KeyName>
+      <KeyNameFull>FN + Caps Lock</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419348</modified_at>
+      <DLLKeyId>30</DLLKeyId>
+      <DLLKeyName>CapsLock</DLLKeyName>
+      <DLLMatrixIndex>28</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>65</KeyId>
+      <KeyName>FN + A</KeyName>
+      <KeyAlternateName>Profile 1</KeyAlternateName>
+      <KeyNameFull>FN + A</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + A</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419351</modified_at>
+      <DLLKeyId>31</DLLKeyId>
+      <DLLKeyName>A</DLLKeyName>
+      <DLLMatrixIndex>29</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>83</KeyId>
+      <KeyName>FN + S</KeyName>
+      <KeyAlternateName>Profile 2</KeyAlternateName>
+      <KeyNameFull>FN + S</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + S</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419361</modified_at>
+      <DLLKeyId>32</DLLKeyId>
+      <DLLKeyName>S</DLLKeyName>
+      <DLLMatrixIndex>30</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>68</KeyId>
+      <KeyName>FN + D</KeyName>
+      <KeyAlternateName>Profile 3</KeyAlternateName>
+      <KeyNameFull>FN + D</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + D</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419367</modified_at>
+      <DLLKeyId>33</DLLKeyId>
+      <DLLKeyName>D</DLLKeyName>
+      <DLLMatrixIndex>31</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>70</KeyId>
+      <KeyName>FN + F</KeyName>
+      <KeyAlternateName>Profile 4</KeyAlternateName>
+      <KeyNameFull>FN + F</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + F</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419375</modified_at>
+      <DLLKeyId>34</DLLKeyId>
+      <DLLKeyName>F</DLLKeyName>
+      <DLLMatrixIndex>32</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>71</KeyId>
+      <KeyName>FN + G</KeyName>
+      <KeyAlternateName>Profile 5</KeyAlternateName>
+      <KeyNameFull>FN + G</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + G</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419382</modified_at>
+      <DLLKeyId>35</DLLKeyId>
+      <DLLKeyName>G</DLLKeyName>
+      <DLLMatrixIndex>33</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>72</KeyId>
+      <KeyName>FN + H</KeyName>
+      <KeyNameFull>FN + H</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419389</modified_at>
+      <DLLKeyId>36</DLLKeyId>
+      <DLLKeyName>H</DLLKeyName>
+      <DLLMatrixIndex>34</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>74</KeyId>
+      <KeyName>FN + J</KeyName>
+      <KeyAlternateName>Pause</KeyAlternateName>
+      <KeyNameFull>FN + J</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + J</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419392</modified_at>
+      <DLLKeyId>37</DLLKeyId>
+      <DLLKeyName>J</DLLKeyName>
+      <DLLMatrixIndex>35</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>75</KeyId>
+      <KeyName>FN + K</KeyName>
+      <KeyAlternateName>Prt Scr</KeyAlternateName>
+      <KeyNameFull>FN + K</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + K</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419402</modified_at>
+      <DLLKeyId>38</DLLKeyId>
+      <DLLKeyName>K</DLLKeyName>
+      <DLLMatrixIndex>36</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>76</KeyId>
+      <KeyName>FN + L</KeyName>
+      <KeyAlternateName>End</KeyAlternateName>
+      <KeyNameFull>FN + L</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + L</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419408</modified_at>
+      <DLLKeyId>39</DLLKeyId>
+      <DLLKeyName>L</DLLKeyName>
+      <DLLMatrixIndex>37</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>186</KeyId>
+      <KeyName>FN + ;</KeyName>
+      <KeyAlternateName>Pg Dwn</KeyAlternateName>
+      <KeyNameFull>FN + Semicolon</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + ;</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419415</modified_at>
+      <DLLKeyId>40</DLLKeyId>
+      <DLLKeyName>;</DLLKeyName>
+      <DLLMatrixIndex>38</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>222</KeyId>
+      <KeyName>FN + '</KeyName>
+      <KeyNameFull>FN + Quote</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419421</modified_at>
+      <DLLKeyId>41</DLLKeyId>
+      <DLLKeyName>'</DLLKeyName>
+      <DLLMatrixIndex>39</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>13</KeyId>
+      <KeyName>FN + Enter↵</KeyName>
+      <KeyNameFull>FN + Enter</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419424</modified_at>
+      <DLLKeyId>43</DLLKeyId>
+      <DLLKeyName />
+      <DLLMatrixIndex>41</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>160</KeyId>
+      <KeyName>FN + ↑Shift</KeyName>
+      <KeyNameFull>FN + Shift Left</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419427</modified_at>
+      <DLLKeyId>44</DLLKeyId>
+      <DLLKeyName>Shift</DLLKeyName>
+      <DLLMatrixIndex>42</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>90</KeyId>
+      <KeyName>FN + Z</KeyName>
+      <KeyNameFull>FN + Z</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441943</modified_at>
+      <DLLKeyId>46</DLLKeyId>
+      <DLLKeyName>Z</DLLKeyName>
+      <DLLMatrixIndex>43</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>88</KeyId>
+      <KeyName>FN + X</KeyName>
+      <KeyNameFull>FN + X</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419433</modified_at>
+      <DLLKeyId>47</DLLKeyId>
+      <DLLKeyName>X</DLLKeyName>
+      <DLLMatrixIndex>44</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>67</KeyId>
+      <KeyName>FN + C</KeyName>
+      <KeyNameFull>FN + C</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419436</modified_at>
+      <DLLKeyId>48</DLLKeyId>
+      <DLLKeyName>C</DLLKeyName>
+      <DLLMatrixIndex>45</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>86</KeyId>
+      <KeyName>FN + V</KeyName>
+      <KeyNameFull>FN + V</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419439</modified_at>
+      <DLLKeyId>49</DLLKeyId>
+      <DLLKeyName>V</DLLKeyName>
+      <DLLMatrixIndex>46</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>66</KeyId>
+      <KeyName>FN + B</KeyName>
+      <KeyNameFull>FN + B</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419442</modified_at>
+      <DLLKeyId>50</DLLKeyId>
+      <DLLKeyName>B</DLLKeyName>
+      <DLLMatrixIndex>47</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>78</KeyId>
+      <KeyName>FN + N</KeyName>
+      <KeyNameFull>FN + N</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419445</modified_at>
+      <DLLKeyId>51</DLLKeyId>
+      <DLLKeyName>N</DLLKeyName>
+      <DLLMatrixIndex>48</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>77</KeyId>
+      <KeyName>FN + M</KeyName>
+      <KeyNameFull>FN + M</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419448</modified_at>
+      <DLLKeyId>52</DLLKeyId>
+      <DLLKeyName>M</DLLKeyName>
+      <DLLMatrixIndex>49</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>188</KeyId>
+      <KeyName>FN + ,</KeyName>
+      <KeyAlternateName>Backlight Brightness ↓</KeyAlternateName>
+      <KeyNameFull>FN + Comma</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + &lt;</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419451</modified_at>
+      <DLLKeyId>53</DLLKeyId>
+      <DLLKeyName>,</DLLKeyName>
+      <DLLMatrixIndex>50</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>190</KeyId>
+      <KeyName>FN + .</KeyName>
+      <KeyAlternateName>Backlight Brightness ↑</KeyAlternateName>
+      <KeyNameFull>FN + Period</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + &gt;</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419473</modified_at>
+      <DLLKeyId>54</DLLKeyId>
+      <DLLKeyName>.</DLLKeyName>
+      <DLLMatrixIndex>51</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>191</KeyId>
+      <KeyName>FN + /</KeyName>
+      <KeyNameFull>FN + Slash</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419484</modified_at>
+      <DLLKeyId>55</DLLKeyId>
+      <DLLKeyName>/</DLLKeyName>
+      <DLLMatrixIndex>52</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>161</KeyId>
+      <KeyName>FN + Shift</KeyName>
+      <KeyNameFull>FN + Shift Right</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419487</modified_at>
+      <DLLKeyId>57</DLLKeyId>
+      <DLLKeyName>Shift</DLLKeyName>
+      <DLLMatrixIndex>53</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>38</KeyId>
+      <KeyName>FN + ↑</KeyName>
+      <KeyAlternateName>Backlight speed ↑</KeyAlternateName>
+      <KeyNameFull>FN + Arrow Up</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + ↑</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441949</modified_at>
+      <DLLKeyId>83</DLLKeyId>
+      <DLLKeyName>Up Arrow</DLLKeyName>
+      <DLLMatrixIndex>54</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>46</KeyId>
+      <KeyName>FN + Del</KeyName>
+      <KeyNameFull>FN + Delete</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419502</modified_at>
+      <DLLKeyId>76</DLLKeyId>
+      <DLLKeyName>Delete</DLLKeyName>
+      <DLLMatrixIndex>55</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>162</KeyId>
+      <KeyName>FN + Ctrl</KeyName>
+      <KeyNameFull>FN + Control Left</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419505</modified_at>
+      <DLLKeyId>58</DLLKeyId>
+      <DLLKeyName>CTRL</DLLKeyName>
+      <DLLMatrixIndex>56</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>164</KeyId>
+      <KeyName>FN + Alt</KeyName>
+      <KeyNameFull>FN + Alt Left</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419508</modified_at>
+      <DLLKeyId>60</DLLKeyId>
+      <DLLKeyName>Alt</DLLKeyName>
+      <DLLMatrixIndex>58</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>91</KeyId>
+      <KeyName>FN + ⊞</KeyName>
+      <KeyAlternateName>Game Mode</KeyAlternateName>
+      <KeyNameFull>FN + Win L</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + WIN</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441951</modified_at>
+      <DLLKeyId>59</DLLKeyId>
+      <DLLKeyName>Win</DLLKeyName>
+      <DLLMatrixIndex>57</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>32</KeyId>
+      <KeyName>FN + Space</KeyName>
+      <KeyNameFull>FN + Space</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419519</modified_at>
+      <DLLKeyId>61</DLLKeyId>
+      <DLLKeyName>Space</DLLKeyName>
+      <DLLMatrixIndex>61</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>165</KeyId>
+      <KeyName>FN + Alt</KeyName>
+      <KeyNameFull>FN + Alt Right</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419522</modified_at>
+      <DLLKeyId>62</DLLKeyId>
+      <DLLKeyName>Alt</DLLKeyName>
+      <DLLMatrixIndex>64</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>37</KeyId>
+      <KeyName>FN + ←</KeyName>
+      <KeyAlternateName>Effect cycle ↑</KeyAlternateName>
+      <KeyNameFull>FN + Arrow Left</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + ←</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419526</modified_at>
+      <DLLKeyId>79</DLLKeyId>
+      <DLLKeyName>Left Arrow</DLLKeyName>
+      <DLLMatrixIndex>67</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>40</KeyId>
+      <KeyName>FN + ↓</KeyName>
+      <KeyAlternateName>Backlight speed ↓</KeyAlternateName>
+      <KeyNameFull>FN + Arrow Down</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + ↓</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419535</modified_at>
+      <DLLKeyId>84</DLLKeyId>
+      <DLLKeyName>Down Arrow</DLLKeyName>
+      <DLLMatrixIndex>68</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>39</KeyId>
+      <KeyName>FN + →</KeyName>
+      <KeyAlternateName>Effect cycle ↓</KeyAlternateName>
+      <KeyNameFull>FN + Arrow Right</KeyNameFull>
+      <IsKeyAssigned>true</IsKeyAssigned>
+      <FunctionType>Keyboard Shortcuts</FunctionType>
+      <FunctionValue>FN + →</FunctionValue>
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419546</modified_at>
+      <DLLKeyId>89</DLLKeyId>
+      <DLLKeyName>Right Arrow</DLLKeyName>
+      <DLLMatrixIndex>69</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>163</KeyId>
+      <KeyName>FN + RCtrl</KeyName>
+      <KeyNameFull>FN + Control Right</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419554</modified_at>
+      <DLLKeyId>64</DLLKeyId>
+      <DLLKeyName>CTRL</DLLKeyName>
+      <DLLMatrixIndex>228</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>92</KeyId>
+      <KeyName>FN + ⊞</KeyName>
+      <KeyNameFull>FN + Win R</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.4419557</modified_at>
+      <DLLKeyId>63</DLLKeyId>
+      <DLLKeyName>Win</DLLKeyName>
+      <DLLMatrixIndex>231</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+    <Everest60KeyBinding>
+      <ProfileId>3</ProfileId>
+      <KeyId>261</KeyId>
+      <KeyName>FN + Fn</KeyName>
+      <KeyNameFull>FN + Fn</KeyNameFull>
+      <IsKeyAssigned>false</IsKeyAssigned>
+      <FunctionType>Default</FunctionType>
+      <FunctionValue />
+      <IsSyncAcrossProfiles>false</IsSyncAcrossProfiles>
+      <modified_at>2023-09-03T20:24:19.441956</modified_at>
+      <DLLKeyId>154</DLLKeyId>
+      <DLLKeyName>FN</DLLKeyName>
+      <DLLMatrixIndex>66</DLLMatrixIndex>
+      <LayerType>3</LayerType>
+    </Everest60KeyBinding>
+  </Everest60KeyBindings>
+  <Everest60Settings>
+    <Everest60Setting>
+      <ProfileId>3</ProfileId>
+      <SysncAcrossProfile>false</SysncAcrossProfile>
+      <FirmwareVersion />
+      <DisableShift>false</DisableShift>
+      <DisableAltF4>false</DisableAltF4>
+      <DisableWin>false</DisableWin>
+      <DisableAltTab>false</DisableAltTab>
+      <EnableCoreLED>false</EnableCoreLED>
+      <KeyboardLayout>US</KeyboardLayout>
+      <modified_at>2022-09-08T18:19:42.9536805</modified_at>
+      <IsLayoutConfigured>false</IsLayoutConfigured>
+    </Everest60Setting>
+  </Everest60Settings>
+  <DisplayPadKeyBindings />
+</Profile>
